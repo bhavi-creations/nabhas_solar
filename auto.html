@@ -1,0 +1,106 @@
+<!-- image slider  -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">  
+  
+  <div class="section team-area section-padding">
+    <div class="container">
+      <div class="team-wrapper">
+        <!-- Team Title Start -->
+        <div class="team-title-wrapper">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <div class="section-title">
+                <h3 class="sub-title">Medical & General Care!</h3>
+                <h2 class="title">Meet Our Doctors</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 align-self-end">
+              <div class="team-btn">
+                <a class="btn" href="about.php">All Doctors</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team Title End -->
+
+        <!-- Team Content Wrapper Start -->
+        <div class="team-content-wrapper">
+          <div class="team-content-wrapper">
+
+            <div class="custom-slide-container swiper">
+              <div class="custom-slide-content   ">
+                <div class="custom-card-wrapper swiper-wrapper py-5">
+
+                  <div class="custom-card custom_card_bg_three swiper-slide">
+
+                    <img src="./assets/img/adani.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                  </div>
+                  <div class="custom-card custom_card_bg_three swiper-slide">
+
+                    <img src="./assets/img/kei_c.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                  </div>
+                  <div class="custom-card custom_card_bg_three swiper-slide">
+
+                    <img src="./assets/img/nabhas.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                  </div>
+                  <div class="custom-card custom_card_bg_three swiper-slide">
+
+                    <img src="./assets/img/tata.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <!-- Team Content Wrapper End -->
+      </div>
+    </div>
+  </div>
+
+  
+    <script>
+      var swiper = new Swiper(".custom-slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        loop: true,
+        centerslide: 'true',
+        fade: 'true',
+        grabCursor: 'true',
+        pagination: {
+          el: ".custom-swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        autoplay: {
+          delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+          disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+        },
+        navigation: {
+          nextEl: ".swiper-button-next.custom-swiper-navBtn",
+          prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+        },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          950: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>

@@ -32,23 +32,23 @@
 
             <div class="solar-service-stats-strip fade-up">
                 <div class="solar-service-stat-item">
-                    <div class="solar-service-stat-num">1,800+</div>
+                    <div class="solar-service-stat-num">400+</div>
                     <div class="solar-service-stat-lbl">Installations</div>
                 </div>
                 <div class="solar-service-stat-item">
-                    <div class="solar-service-stat-num">500 MW</div>
-                    <div class="solar-service-stat-lbl">Capacity</div>
+                    <div class="solar-service-stat-num">300+</div>
+                    <div class="solar-service-stat-lbl">Customers Satisfaction</div>
                 </div>
                 <div class="solar-service-stat-item">
                     <div class="solar-service-stat-num">98%</div>
                     <div class="solar-service-stat-lbl">Satisfaction</div>
                 </div>
-                <div class="solar-service-stat-item">
+                <!-- <div class="solar-service-stat-item">
                     <div class="solar-service-stat-num">15 Yrs</div>
                     <div class="solar-service-stat-lbl">Experience</div>
-                </div>
+                </div> -->
                 <div class="solar-service-stat-item">
-                    <div class="solar-service-stat-num">40%</div>
+                    <div class="solar-service-stat-num">90%</div>
                     <div class="solar-service-stat-lbl">Avg Savings</div>
                 </div>
             </div>
@@ -70,13 +70,14 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-house-fill"></i></div>
                                 <h3 class="solar-service-name">Residential Solar</h3>
-                                <p class="solar-service-desc">Custom rooftop systems designed for your home's unique energy profile. Installation in 1–2 days.</p>
+                                <p class="solar-service-desc">Nabhas Solar provides high-efficiency rooftop systems tailored to meet your household energy needs. We handle everything from government subsidies (PM Surya Ghar) to final installation, ensuring your transition to clean energy is seamless and stress-free.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">Rooftop</span>
-                                    <span class="solar-service-pill">25-yr Warranty</span>
+                                    <span class="solar-service-pill">90% Bill Reduction</span>
+                                    <span class="solar-service-pill">30-Year Warranty</span>
+                                    <span class="solar-service-pill">Subsidy Support</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -92,13 +93,13 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-building-fill"></i></div>
                                 <h3 class="solar-service-name">Commercial Solar</h3>
-                                <p class="solar-service-desc">Large-scale solar plants tailored for offices and factories to hit sustainability targets.</p>
+                                <p class="solar-service-desc">Reduce your operational overheads and enhance your brand's ESG (Environmental, Social, and Governance) rating. We design scalable solar plants for factories, offices, and warehouses that deliver high ROI and energy independence.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">C&I Plants</span>
-                                    <span class="solar-service-pill">Scalable</span>
+                                    <span class="solar-service-pill">Accelerated Payback</span>
+                                    <span class="solar-service-pill">Tax Benefits</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -114,13 +115,14 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-tools"></i></div>
                                 <h3 class="solar-service-name">EPC Services</h3>
-                                <p class="solar-service-desc">Complete end-to-end project execution — from design through commissioning.</p>
+                                <p class="solar-service-desc">Our Engineering, Procurement, and Construction (EPC) team manages every technical detail. From the initial 3D site design to the final grid synchronization, we ensure your solar plant is built to the highest safety and quality standards.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">Design</span>
-                                    <span class="solar-service-pill">Procurement</span>
+                                    <span class="solar-service-pill">In-House Engineering</span>
+                                    <span class="solar-service-pill">Premium Procurement</span>
+                                    <span class="solar-service-pill">Safety Clearances</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -136,13 +138,14 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-battery-charging"></i></div>
                                 <h3 class="solar-service-name">Battery Storage</h3>
-                                <p class="solar-service-desc">LiFePO₄ battery banks store surplus energy for use at night or during outages.</p>
+                                <p class="solar-service-desc">Don't let the sunset stop your solar journey. Our advanced Battery Energy Storage Systems (BESS) store excess energy generated during the day, providing reliable power during outages or nighttime.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">LiFePO₄</span>
-                                    <span class="solar-service-pill">24/7 Power</span>
+                                    <span class="solar-service-pill">24/7 Power Security</span>
+                                    <span class="solar-service-pill">LiFePO₄ Technology</span>
+                                    <span class="solar-service-pill">Smart Charging</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -158,13 +161,14 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-wrench-adjustable"></i></div>
                                 <h3 class="solar-service-name">AMC & Support</h3>
-                                <p class="solar-service-desc">Regular inspection and cleaning to keep panels running at peak efficiency.</p>
+                                <p class="solar-service-desc">Solar panels need regular care to maintain maximum efficiency. Our Annual Maintenance Contracts (AMC) include professional cleaning, electrical health checks, and preventive maintenance to ensure your system never slows down.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">Cleaning</span>
-                                    <span class="solar-service-pill">AMC Plans</span>
+                                    <span class="solar-service-pill">Professional Cleaning</span>
+                                    <span class="solar-service-pill">System Health Checks</span>
+                                    <span class="solar-service-pill">Priority Support</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -180,13 +184,14 @@
                             <div class="solar-service-body">
                                 <div class="solar-service-icon-tag"><i class="bi bi-graph-up-arrow"></i></div>
                                 <h3 class="solar-service-name">Smart Monitoring</h3>
-                                <p class="solar-service-desc">Live dashboards and monthly reports. Track production and savings in real-time.</p>
+                                <p class="solar-service-desc">Knowledge is power. With our integrated smart monitoring tools, you can track how much energy you produce and save in real-time through an easy-to-use mobile app.</p>
                                 <div class="solar-service-pills">
-                                    <span class="solar-service-pill">Live Dashboard</span>
+                                    <span class="solar-service-pill">Real-Time Tracking</span>
                                     <span class="solar-service-pill">Smart Alerts</span>
+                                    <span class="solar-service-pill">Impact Reports</span>
                                 </div>
                                 <div class="solar-service-divider"></div>
-                                <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a>
+                                <!-- <a href="#" class="solar-service-cta">Learn More <span class="arrow-icon"><i class="bi bi-arrow-right"></i></span></a> -->
                             </div>
                         </div>
                     </div>

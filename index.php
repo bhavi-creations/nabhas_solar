@@ -3,275 +3,275 @@
 
 
 
-  <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
-  <?php include 'navbar.php'; ?>
+<!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+<?php include 'navbar.php'; ?>
 
 
-  <img src="./assets/img/slider_1.png" alt="" class="img-fluid">
+<img src="./assets/img/slider_1.png" alt="" class="img-fluid">
 
-  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
-  <section id="hero">
-    <div class="hero-orb orb-1"></div>
-    <div class="hero-orb orb-2"></div>
-    <div class="hero-orb orb-3"></div>
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<section id="hero">
+  <div class="hero-orb orb-1"></div>
+  <div class="hero-orb orb-2"></div>
+  <div class="hero-orb orb-3"></div>
 
-    <div class="container position-relative" style="z-index:2;">
-      <div class="row align-items-center g-5">
+  <div class="container position-relative" style="z-index:2;">
+    <div class="row align-items-center g-5">
 
-        <div class="col-lg-6">
-          <!-- <div class="hero-badge"><i class="bi bi-sun-fill me-1"></i> Trusted Solar Energy Partner</div>
+      <div class="col-lg-6">
+        <!-- <div class="hero-badge"><i class="bi bi-sun-fill me-1"></i> Trusted Solar Energy Partner</div>
           <h1 class="hero-title">Power Your World With <em>Clean Solar</em> Energy</h1>
           <p class="hero-subtitle">We design, install, and maintain cutting-edge solar systems for homes and businesses — saving you money while protecting our planet for generations to come.</p> -->
 
 
-          <div class="hero-badge"><i class="bi bi-sun-fill me-1"></i> Trusted Solar Energy Partner</div>
+        <div class="hero-badge"><i class="bi bi-sun-fill me-1"></i> Trusted Solar Energy Partner</div>
 
-          <h1 class="hero-title">Empowering Communities<em> with Clean</em> Solar Energy</h1>
+        <h1 class="hero-title">Empowering Communities<em> with Clean</em> Solar Energy</h1>
 
-          <p class="hero-subtitle">Every day we reduce 5 tons of CO₂ for a healthy environment. Join the transition with over 400+ successful installations across Andhra Pradesh.
+        <p class="hero-subtitle">Every day we reduce 5 tons of CO₂ for a healthy environment. Join the transition with over 400+ successful installations across Andhra Pradesh.
 
-            Get Free Estimate</p>
-
-
+          Get Free Estimate</p>
 
 
 
 
-          <div class="d-flex flex-wrap gap-3">
-            <a href="#contact" class="btn-sun"><i class="bi bi-lightning-fill me-2"></i>Get Free Estimate</a>
-            <a href="service.php" class="btn-outline-white"><i class="bi bi-play-circle me-2"></i>Our Services</a>
+
+
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#contact" class="btn-sun"><i class="bi bi-lightning-fill me-2"></i>Get Free Estimate</a>
+          <a href="service.php" class="btn-outline-white"><i class="bi bi-play-circle me-2"></i>Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num"><span class="count-num" data-target="400">0</span>+</div>
+            <div class="hero-stat-lbl">Installations</div>
           </div>
-          <div class="hero-stats">
-            <div>
-              <div class="hero-stat-num"><span class="count-num" data-target="400">0</span>+</div>
-              <div class="hero-stat-lbl">Installations</div>
-            </div>
-            <div>
-              <div class="hero-stat-num"><span class="count-num" data-target="5">0</span>T</div>
-              <div class="hero-stat-lbl">CO₂ Reduced Daily</div>
-            </div>
-            <div>
-              <div class="hero-stat-num"><span class="count-num" data-target="300">0</span>+</div>
-              <div class="hero-stat-lbl">Happy Customers</div>
-            </div>
+          <div>
+            <div class="hero-stat-num"><span class="count-num" data-target="5">0</span>T</div>
+            <div class="hero-stat-lbl">CO₂ Reduced Daily</div>
+          </div>
+          <div>
+            <div class="hero-stat-num"><span class="count-num" data-target="300">0</span>+</div>
+            <div class="hero-stat-lbl">Happy Customers</div>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-6 hero-visual">
-          <div style="position:relative; max-width:440px; margin: 0 auto;">
-            <div class="solar-card">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <!-- <div>
+      <div class="col-lg-6 hero-visual">
+        <div style="position:relative; max-width:440px; margin: 0 auto;">
+          <div class="solar-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <!-- <div>
                   <div style="font-size:.75rem;color:rgba(255,255,255,.5);letter-spacing:1px;text-transform:uppercase;">Live Output</div>
                   <div style="font-family:var(--font-head);font-size:1.8rem;font-weight:800;color:var(--white);">24.8 <span style="font-size:1rem;color:var(--sun);">kW</span></div>
                 </div> -->
-                <div style="width:48px;height:48px;border-radius:12px;background:var(--sun);display:flex;align-items:center;justify-content:center;">
-                  <i class="bi bi-sun-fill" style="font-size:1.4rem;color:var(--navy);"></i>
-                </div>
+              <div style="width:48px;height:48px;border-radius:12px;background:var(--sun);display:flex;align-items:center;justify-content:center;">
+                <i class="bi bi-sun-fill" style="font-size:1.4rem;color:var(--navy);"></i>
               </div>
-              <div class="solar-panel-grid">
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
-                <div class="solar-cell"></div>
+            </div>
+            <div class="solar-panel-grid">
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+              <div class="solar-cell"></div>
+            </div>
+            <div class="power-gauge">
+              <i class="bi bi-battery-charging" style="color:var(--sun);"></i>
+              <div class="gauge-bar">
+                <div class="gauge-fill"></div>
               </div>
-              <div class="power-gauge">
-                <i class="bi bi-battery-charging" style="color:var(--sun);"></i>
-                <div class="gauge-bar">
-                  <div class="gauge-fill"></div>
-                </div>
-                <span class="gauge-val">72%</span>
-              </div>
-              <!-- <div class="mt-3 d-flex justify-content-between" style="font-size:.78rem;color:rgba(255,255,255,.5);">
+              <span class="gauge-val">72%</span>
+            </div>
+            <!-- <div class="mt-3 d-flex justify-content-between" style="font-size:.78rem;color:rgba(255,255,255,.5);">
                 <span><i class="bi bi-cloud-sun me-1" style="color:var(--sun);"></i>Sunny Conditions</span>
                 <span><i class="bi bi-arrow-up me-1" style="color:#4ade80;"></i>$12.40 saved today</span>
               </div> -->
-            </div>
+          </div>
 
-            <!-- <div class="badge-float bf-1">
+          <!-- <div class="badge-float bf-1">
               <div class="icon" style="background:#d4f0e3;color:var(--leaf);"><i class="bi bi-tree-fill"></i></div>
               <div>
                 <div style="font-size:.68rem;color:var(--gray);font-weight:500;">CO₂ Reduced</div>
                 <div style="color:var(--leaf);">4.2 Tons / yr</div>
               </div>
             </div> -->
-            <!-- <div class="badge-float bf-2">
+          <!-- <div class="badge-float bf-2">
               <div class="icon" style="background:#fff3cd;color:#856404;"><i class="bi bi-currency-dollar"></i></div>
               <div>
                 <div style="font-size:.68rem;color:var(--gray);font-weight:500;">Avg Savings</div>
                 <div style="color:var(--navy);">$1,800 / year</div>
               </div>
             </div> -->
-          </div>
         </div>
-
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
-  <section id="about">
-    <div class="container">
-      <div class="row align-items-center g-5">
+<!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
 
-        <div class="col-lg-5 fade-up">
-          <div class="about-img-wrap">
-            <div class="about-img p-4">
-              <svg class="about-svg" viewBox="0 0 400 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Ground -->
-                <rect x="0" y="280" width="400" height="100" fill="#1a4a2e" rx="6" />
-                <!-- House -->
-                <rect x="80" y="160" width="240" height="140" fill="#0d2748" rx="6" />
-                <!-- Roof -->
-                <polygon points="60,170 200,80 340,170" fill="#0f3560" />
-                <!-- Solar panels on roof -->
-                <rect x="110" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
-                <rect x="180" y="102" width="60" height="38" rx="4" fill="#1e3a6e" />
-                <rect x="250" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
-                <!-- Panel shimmer -->
-                <rect x="115" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
-                <line x1="115" y1="131" x2="165" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <line x1="140" y1="116" x2="140" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <rect x="185" y="106" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
-                <line x1="185" y1="121" x2="235" y2="121" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <line x1="210" y1="106" x2="210" y2="136" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <rect x="255" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
-                <line x1="255" y1="131" x2="305" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <line x1="280" y1="116" x2="280" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-                <!-- Door -->
-                <rect x="170" y="230" width="60" height="70" rx="4" fill="#0a1f3a" />
-                <circle cx="222" cy="267" r="4" fill="#F5C518" />
-                <!-- Windows -->
-                <rect x="100" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
-                <rect x="248" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
-                <!-- Sun -->
-                <circle cx="340" cy="70" r="32" fill="#F5C518" opacity=".9" />
-                <circle cx="340" cy="70" r="22" fill="#F5C518" />
-                <!-- Sun rays -->
-                <line x1="340" y1="25" x2="340" y2="10" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <line x1="375" y1="35" x2="385" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <line x1="385" y1="70" x2="400" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <line x1="375" y1="105" x2="385" y2="115" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <line x1="305" y1="35" x2="295" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <line x1="295" y1="70" x2="280" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-                <!-- Energy beam -->
-                <path d="M320 92 L200 130 L220 140 L200 175 L260 130 L240 120 Z" fill="#F5C518" opacity=".25" />
-                <!-- Trees -->
-                <ellipse cx="60" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
-                <rect x="56" y="275" width="8" height="20" fill="#1a4a2e" />
-                <ellipse cx="350" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
-                <rect x="346" y="275" width="8" height="20" fill="#1a4a2e" />
-              </svg>
-            </div>
-            <div class="about-chip ac-1">
+      <div class="col-lg-5 fade-up">
+        <div class="about-img-wrap">
+          <div class="about-img p-4">
+            <svg class="about-svg" viewBox="0 0 400 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Ground -->
+              <rect x="0" y="280" width="400" height="100" fill="#1a4a2e" rx="6" />
+              <!-- House -->
+              <rect x="80" y="160" width="240" height="140" fill="#0d2748" rx="6" />
+              <!-- Roof -->
+              <polygon points="60,170 200,80 340,170" fill="#0f3560" />
+              <!-- Solar panels on roof -->
+              <rect x="110" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
+              <rect x="180" y="102" width="60" height="38" rx="4" fill="#1e3a6e" />
+              <rect x="250" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
+              <!-- Panel shimmer -->
+              <rect x="115" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
+              <line x1="115" y1="131" x2="165" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <line x1="140" y1="116" x2="140" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <rect x="185" y="106" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
+              <line x1="185" y1="121" x2="235" y2="121" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <line x1="210" y1="106" x2="210" y2="136" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <rect x="255" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
+              <line x1="255" y1="131" x2="305" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <line x1="280" y1="116" x2="280" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
+              <!-- Door -->
+              <rect x="170" y="230" width="60" height="70" rx="4" fill="#0a1f3a" />
+              <circle cx="222" cy="267" r="4" fill="#F5C518" />
+              <!-- Windows -->
+              <rect x="100" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
+              <rect x="248" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
+              <!-- Sun -->
+              <circle cx="340" cy="70" r="32" fill="#F5C518" opacity=".9" />
+              <circle cx="340" cy="70" r="22" fill="#F5C518" />
+              <!-- Sun rays -->
+              <line x1="340" y1="25" x2="340" y2="10" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <line x1="375" y1="35" x2="385" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <line x1="385" y1="70" x2="400" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <line x1="375" y1="105" x2="385" y2="115" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <line x1="305" y1="35" x2="295" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <line x1="295" y1="70" x2="280" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
+              <!-- Energy beam -->
+              <path d="M320 92 L200 130 L220 140 L200 175 L260 130 L240 120 Z" fill="#F5C518" opacity=".25" />
+              <!-- Trees -->
+              <ellipse cx="60" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
+              <rect x="56" y="275" width="8" height="20" fill="#1a4a2e" />
+              <ellipse cx="350" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
+              <rect x="346" y="275" width="8" height="20" fill="#1a4a2e" />
+            </svg>
+          </div>
+          <!-- <div class="about-chip ac-1">
               <div class="ac-val">15+</div>
               <div class="ac-lbl">Years in Solar</div>
-            </div>
-            <div class="about-chip ac-2">
-              <div class="ac-val">1,800+</div>
-              <div class="ac-lbl">Homes Powered</div>
-            </div>
+            </div> -->
+          <div class="about-chip ac-2">
+            <div class="ac-val">400+</div>
+            <div class="ac-lbl">Homes Powered</div>
           </div>
         </div>
-
-        <div class="col-lg-7 fade-up fade-up-d2">
-          <div class="section-tag"><i class="bi bi-info-circle me-1"></i> About Nabhas Solar</div>
-          <h2 class="section-title">Turning Sunlight into <span>Reliable Electricity</span></h2>
-          <p class="text-muted mb-4" style="line-height:1.8;">Nabhas Solar is an innovative renewable energy company dedicated to delivering sustainable solar solutions.
-            We empower communities, businesses, and industries to transition toward clean energy with high-quality solar systems
-            that promote energy independence.</p>
-
-          <div class="mission-item">
-            <div class="mi-icon"><i class="bi bi-bullseye"></i></div>
-            <div>
-              <div class="mi-title">Our Mission</div>
-              <div class="mi-text">To accelerate the adoption of renewable energy by offering affordable, high quality solar systems that reduce carbon footprints and promote energy independence.</div>
-            </div>
-          </div>
-          <div class="mission-item">
-            <div class="mi-icon"><i class="bi bi-eye-fill"></i></div>
-            <div>
-              <div class="mi-title">Innovation</div>
-              <div class="mi-text">Cutting-edge solar technologies for maximum performance.</div>
-            </div>
-          </div>
-          <div class="mission-item">
-            <div class="mi-icon"><i class="bi bi-award-fill"></i></div>
-            <div>
-              <div class="mi-title">Trust</div>
-              <div class="mi-text">Long-term partnerships built on transparency and reliability.</div>
-            </div>
-          </div>
-          <a href="about.php" class="btn-leaf">Read More</a>
-        </div>
-
       </div>
+
+      <div class="col-lg-7 fade-up fade-up-d2">
+        <div class="section-tag"><i class="bi bi-info-circle me-1"></i> About Nabhas Solar</div>
+        <h2 class="section-title">Turning Sunlight into <span>Reliable Electricity</span></h2>
+        <p class="text-muted mb-4" style="line-height:1.8;">Nabhas Solar is an innovative renewable energy company dedicated to delivering sustainable solar solutions.
+          We empower communities, businesses, and industries to transition toward clean energy with high-quality solar systems
+          that promote energy independence.</p>
+
+        <div class="mission-item">
+          <div class="mi-icon"><i class="bi bi-bullseye"></i></div>
+          <div>
+            <div class="mi-title">Our Mission</div>
+            <div class="mi-text">To accelerate the adoption of renewable energy by offering affordable, high quality solar systems that reduce carbon footprints and promote energy independence.</div>
+          </div>
+        </div>
+        <div class="mission-item">
+          <div class="mi-icon"><i class="bi bi-eye-fill"></i></div>
+          <div>
+            <div class="mi-title">Innovation</div>
+            <div class="mi-text">Cutting-edge solar technologies for maximum performance.</div>
+          </div>
+        </div>
+        <div class="mission-item">
+          <div class="mi-icon"><i class="bi bi-award-fill"></i></div>
+          <div>
+            <div class="mi-title">Trust</div>
+            <div class="mi-text">Long-term partnerships built on transparency and reliability.</div>
+          </div>
+        </div>
+        <a href="about.php" class="btn-leaf">Read More</a>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
 
-  <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
-  <section id="projects">
-    <div class="container">
-      <div class="text-center mb-5 fade-up">
-        <div class="section-tag" style="background:rgba(245,197,24,.15);color:var(--sun);"><i class="bi bi-lightning-fill me-1"></i> Our Project</div>
-        <h2 class="section-title">Completed Solar <span style="color:var(--sun);">Projects</span></h2>
-        <div class="divider" style="background:linear-gradient(90deg,var(--sun),var(--leaf-mid));"></div>
-        <p class="section-sub mx-auto">Real installations, real results. Explore some of our recently completed projects across residential and commercial sectors.</p>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
-          <a href="">
-            <div class="project-card">
-              <div class="project-bg"> <img src="./assets/img/adani.png" alt="" class="img-fluid"> </div>
-              <!-- <div class="project-bg">☀️</div> -->
-              <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,122,74,.4),rgba(11,31,58,.8));"></div>
-              <div class="project-overlay">
-                <!-- <div class="project-tag">Residential</div> -->
-                <div class="project-name">Elite Edible Oil and Fuel Pvt. Ltd</div>
-                <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>A high-scale industrial installation completed within 45 days. It includes full engineering scope, from site survey to CEIG safety clearances and Bi-Directional Net Metering (APEPDCL), ensuring massive energy savings for the factory.</div>
-                <!--  <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i> <strong>  Specialization:</strong> PM Surya Ghar (Muft Bijli Yojana) lo 1kW nundi 5kW+ varaku systems provide cheyadam.</div>
+<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-tag" style="background:rgba(245,197,24,.15);color:var(--sun);"><i class="bi bi-lightning-fill me-1"></i> Our Project</div>
+      <h2 class="section-title">Completed Solar <span style="color:var(--sun);">Projects</span></h2>
+      <div class="divider" style="background:linear-gradient(90deg,var(--sun),var(--leaf-mid));"></div>
+      <p class="section-sub mx-auto">Real installations, real results. Explore some of our recently completed projects across residential and commercial sectors.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+        <a href="">
+          <div class="project-card">
+            <div class="project-bg"> <img src="./assets/img/adani.png" alt="" class="img-fluid"> </div>
+            <!-- <div class="project-bg">☀️</div> -->
+            <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,122,74,.4),rgba(11,31,58,.8));"></div>
+            <div class="project-overlay">
+              <!-- <div class="project-tag">Residential</div> -->
+              <div class="project-name">Elite Edible Oil and Fuel Pvt. Ltd</div>
+              <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>A high-scale industrial installation completed within 45 days. It includes full engineering scope, from site survey to CEIG safety clearances and Bi-Directional Net Metering (APEPDCL), ensuring massive energy savings for the factory.</div>
+              <!--  <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i> <strong>  Specialization:</strong> PM Surya Ghar (Muft Bijli Yojana) lo 1kW nundi 5kW+ varaku systems provide cheyadam.</div>
               <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i><strong> Key Benefit:</strong> Monthy current bills ₹4,800 nundi ₹200 ki tagginchadam.</div> -->
-              </div>
             </div>
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
-          <a href="">
-            <div class="project-card">
-              <div class="project-bg" style="font-size:4rem;">🏭</div>
-              <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(11,31,58,.5),rgba(11,31,58,.8));"></div>
-              <div class="project-overlay">
-                <!-- <div class="project-tag">Commercial</div> -->
-                <div class="project-name">Rotary Old Age Home & Deepu Engineering</div>
-                 <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Customized solar solutions for non-residential spaces. These projects focus on reducing operational costs for offices and social organizations while maintaining a stable and clean power supply.</div>
-              </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
+        <a href="">
+          <div class="project-card">
+            <div class="project-bg" style="font-size:4rem;">🏭</div>
+            <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(11,31,58,.5),rgba(11,31,58,.8));"></div>
+            <div class="project-overlay">
+              <!-- <div class="project-tag">Commercial</div> -->
+              <div class="project-name">Rotary Old Age Home & Deepu Engineering</div>
+              <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Customized solar solutions for non-residential spaces. These projects focus on reducing operational costs for offices and social organizations while maintaining a stable and clean power supply.</div>
             </div>
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
-          <a href="">
-            <div class="project-card">
-              <div class="project-bg" style="font-size:4rem;">🏫</div>
-              <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,168,101,.3),rgba(11,31,58,.8));"></div>
-              <div class="project-overlay">
-                <!-- <div class="project-tag">Educational</div> -->
-                <div class="project-name">PM Surya Ghar (Muft Bijli Yojana)</div>
-                <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Successful rooftop installations across Kakinada, Eluru, and Gorripudi. For example, at Avani Heights, the monthly electricity bill was reduced from ₹4,800 to just ₹200, providing long-term financial freedom to homeowners.</div>
-              </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
+        <a href="">
+          <div class="project-card">
+            <div class="project-bg" style="font-size:4rem;">🏫</div>
+            <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,168,101,.3),rgba(11,31,58,.8));"></div>
+            <div class="project-overlay">
+              <!-- <div class="project-tag">Educational</div> -->
+              <div class="project-name">PM Surya Ghar (Muft Bijli Yojana)</div>
+              <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Successful rooftop installations across Kakinada, Eluru, and Gorripudi. For example, at Avani Heights, the monthly electricity bill was reduced from ₹4,800 to just ₹200, providing long-term financial freedom to homeowners.</div>
             </div>
-          </a>
-        </div>
-        
-        <!--<div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+          </div>
+        </a>
+      </div>
+
+      <!--<div class="col-md-6 col-lg-4 fade-up fade-up-d1">
           <div class="project-card">
             <div class="project-bg" style="font-size:4rem;">🏪</div>
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,197,24,.15),rgba(11,31,58,.85));"></div>
@@ -305,173 +305,291 @@
           </div>
         </div> -->
 
-        
+
+    </div>
+  </div>
+  <!-- <a href="about.php" class="btn-leaf d-flex jsutif">Read More</a> -->
+</section>
+
+<!-- ═══════════════════════════════ PRODUCTS ═══════════════════════════════ -->
+<section id="products">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-tag"><i class="bi bi-box-seam-fill me-1"></i> Our Products</div>
+      <h2 class="section-title">Premium Solar <span>Equipment</span></h2>
+      <div class="divider"></div>
+      <p class="section-sub mx-auto">Industry-leading solar hardware backed by manufacturer warranties and our expert installation team.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+        <div class="product-card">
+          <div class="product-icon-wrap">🌞</div>
+          <div class="product-name">Engineering, Procurement & Construction (EPC)</div>
+          <div class="product-desc">We provide end-to-end project management. From the initial site assessment and system planning to the final implementation, we handle every step to deliver a ready-to-use solar plant.</div>
+          <!-- <div class="product-price">From $280/panel</div>
+            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
+        <div class="product-card">
+          <div class="product-icon-wrap">⚡</div>
+          <div class="product-name">Advanced Structural Design & Engineering</div>
+          <div class="product-desc">We offer in-house 3D design for panel positioning and high-strength structures. Our Hot-dip Galvanized steel structures are tested for quality and rated to withstand wind speeds up to 200 Km/Hr.</div>
+          <!-- <div class="product-price">From $1,200/unit</div>
+            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
+        <div class="product-card">
+          <div class="product-icon-wrap">🔋</div>
+          <div class="product-name">Approvals & Net Metering Support</div>
+          <div class="product-desc">We manage the entire documentation process, including CEIG electrical safety clearances and APEPDCL Bi-Directional meter installations, ensuring your system is legally compliant and grid-ready.</div>
+          <!-- <div class="product-price">From $4,500/unit</div>
+            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+        </div>
       </div>
     </div>
-     <!-- <a href="about.php" class="btn-leaf d-flex jsutif">Read More</a> -->
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════════ PRODUCTS ═══════════════════════════════ -->
-  <section id="products">
-    <div class="container">
-      <div class="text-center mb-5 fade-up">
-        <div class="section-tag"><i class="bi bi-box-seam-fill me-1"></i> Our Products</div>
-        <h2 class="section-title">Premium Solar <span>Equipment</span></h2>
+
+
+
+
+
+
+
+<!-- main kaka   -->
+<div class="section team-area section-padding">
+  <div class="container">
+    <div class="team-wrapper">
+      <!-- Team Title Start -->
+      <!-- <div class="team-title-wrapper">
+          
+            <div class="">
+              <div class="section-title">
+                
+                <p class="title text-center">Our Brands</p>
+                <h3 class="sub-title text-center">Solar panels (540wp to 620wp) with bifacial & topon series <br> <strong>@30 year Warranty</strong></h3>
+                
+              </div>
+            </div>
+
+           
+       
+        </div> -->
+
+
+      <div class="text-center mb-5 fade-up pt-5">
+        <div class="section-tag"><i class="bi bi-envelope-fill me-1"></i>Our Brands</div>
+        <h2 class="section-title-section">Solar panels <span>(540wp to 620wp)</span> with bifacial & topon series <br> <strong>@30 year Warranty</h2>
+        <!-- <p class="section-title-section">Solar panels (540wp to 620wp) with bifacial & topon seriesz @30 year Warranty</p> -->
         <div class="divider"></div>
-        <p class="section-sub mx-auto">Industry-leading solar hardware backed by manufacturer warranties and our expert installation team.</p>
+        <!-- <p class="section-sub mx-auto">Ready to go solar? Fill out the form below and one of our experts will reach out within 24 hours.</p> -->
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
-          <div class="product-card">
-            <div class="product-icon-wrap">🌞</div>
-            <div class="product-name">Engineering, Procurement & Construction (EPC)</div>
-            <div class="product-desc">We provide end-to-end project management. From the initial site assessment and system planning to the final implementation, we handle every step to deliver a ready-to-use solar plant.</div>
-            <!-- <div class="product-price">From $280/panel</div>
-            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+      <!-- Team Title End -->
+
+      <!-- Team Content Wrapper Start -->
+      <div class="team-content-wrapper">
+        <div class="team-content-wrapper">
+
+          <div class="custom-slide-container swiper">
+            <div class="custom-slide-content   ">
+              <div class="custom-card-wrapper swiper-wrapper py-5">
+
+                <div class="custom-card custom_card_bg_three swiper-slide">
+
+                  <img src="./assets/img/adani.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                </div>
+                <div class="custom-card custom_card_bg_three swiper-slide">
+
+                  <img src="./assets/img/premier.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                </div>
+                <div class="custom-card custom_card_bg_three swiper-slide">
+
+                  <img src="./assets/img/waaree.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                </div>
+                <div class="custom-card custom_card_bg_three swiper-slide">
+
+                  <img src="./assets/img/tata.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
-          <div class="product-card">
-            <div class="product-icon-wrap">⚡</div>
-            <div class="product-name">Advanced Structural Design & Engineering</div>
-            <div class="product-desc">We offer in-house 3D design for panel positioning and high-strength structures. Our Hot-dip Galvanized steel structures are tested for quality and rated to withstand wind speeds up to 200 Km/Hr.</div>
-            <!-- <div class="product-price">From $1,200/unit</div>
-            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+      </div>
+      <!-- Team Content Wrapper End -->
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ═══════════════════════════════ BENEFITS ═══════════════════════════════ -->
+<section id="benefits">
+  <div class="container position-relative" style="z-index:1;">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 fade-up">
+        <div class="section-tag" style="background:rgba(255,255,255,.15);color:var(--sun);">Why Nabhas Solar?</div>
+        <h2 class="section-title" style="color:var(--white);">Benefits of <span style="color:var(--sun);">Solar Energy</span></h2>
+        <p style="color:rgba(255,255,255,.75);line-height:1.8;" class="mb-4">Going solar isn't just an investment in your home — it's an investment in your future and the planet's health. Join 400+ Residential & Commercial customers who have already switched to clean energy with Nabhas Solar.</p>
+        <div class="d-flex gap-4 text-center">
+          <div>
+            <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="90">0</div>
+            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">% Avg Bill Reduction</div>
+          </div>
+          <div>
+            <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="30">0</div>
+            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year Panel Warranty</div>
+          </div>
+          <div>
+            <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="3">0</div>
+            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year ROI Average</div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
-          <div class="product-card">
-            <div class="product-icon-wrap">🔋</div>
-            <div class="product-name">Approvals & Net Metering Support</div>
-            <div class="product-desc">We manage the entire documentation process, including CEIG electrical safety clearances and APEPDCL Bi-Directional meter installations, ensuring your system is legally compliant and grid-ready.</div>
-            <!-- <div class="product-price">From $4,500/unit</div>
-            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+      </div>
+      <div class="col-lg-7 fade-up fade-up-d2">
+        <div class="benefit-item">
+          <div class="bi-icon"><i class="bi bi-piggy-bank-fill"></i></div>
+          <div>
+            <div class="bi-title">Significant Cost Savings</div>
+            <div class="bi-text">Slash your electricity bills by up to 90%. With the PM Surya Ghar Muft Bijli Yojana subsidies, most homeowners see a full return on investment (ROI) within 3–5 years. Experience lifelong savings of ₹8–9 lakhs.</div>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="bi-icon"><i class="bi bi-globe2"></i></div>
+          <div>
+            <div class="bi-title">Eco-Friendly & Clean</div>
+            <div class="bi-text">Every day, we reduce 5 Tons of CO₂ for a healthy environment. By choosing Nabhas Solar, you are directly contributing to saving trees and reducing carbon footprints for future generations.</div>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="bi-icon"><i class="bi bi-infinity"></i></div>
+          <div>
+            <div class="bi-title">Renewable & Limitless</div>
+            <div class="bi-text">The sun provides 10,000× more energy than humanity currently uses. Solar energy is truly inexhaustible and shields you against constant electricity tariff hikes.</div>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="bi-icon">⚡</div>
+          <div>
+            <div class="bi-title">Energy Independence</div>
+            <div class="bi-text">Protect yourself from grid outages and rising utility rates. With our high-quality VSOLE inverters and smart monitoring apps, you can track your energy production and enjoy power 24/7.</div>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="bi-icon"><i class="bi bi-graph-up-arrow"></i></div>
+          <div>
+            <div class="bi-title">Increased Property Value</div>
+            <div class="bi-text">Solar-equipped homes and industries are seen as modern and sustainable. According to market trends, solar installations increase property value and enhance your ESG ratings for businesses.</div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════════ BENEFITS ═══════════════════════════════ -->
-  <section id="benefits">
-    <div class="container position-relative" style="z-index:1;">
-      <div class="row g-5 align-items-center">
-        <div class="col-lg-5 fade-up">
-          <div class="section-tag" style="background:rgba(255,255,255,.15);color:var(--sun);">Why Solar?</div>
-          <h2 class="section-title" style="color:var(--white);">Benefits of <span style="color:var(--sun);">Solar Energy</span></h2>
-          <p style="color:rgba(255,255,255,.75);line-height:1.8;" class="mb-4">Going solar isn't just an investment in your home — it's an investment in your future and the planet's health. Here's why thousands choose SolarVolt.</p>
-          <div class="d-flex gap-4 text-center">
+
+<section class="solar_wire-brands-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class=" d-inline-block mb-2">
+        <!-- <i class="bi bi-envelope-fill me-1"></i> Our Partners -->
+      </div><div class="section-tag"><i class="bi bi-envelope-fill me-1"></i>Our Brands</div>
+      <!-- <h2 class="solar_wire-main-title">Trusted by Industry Leaders</h2> -->
+               <h2 class="section-title-section">Cables <span>(AC & DC)</span></h2>
+
+      <!-- <p class="solar_wire-subtitle text-muted">
+        Memu quality and reliability kosam top-tier brands tho matrame work chestham.
+      </p> -->
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-4">
+        <div class="solar_wire-brand-card">
+          <img src="./assets/img/kei_c.png" alt="KEI" class="img-fluid solar_wire-brand-img">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="solar_wire-brand-card">
+          <img src="./assets/img/waacab_c.png" alt="Waacab" class="img-fluid solar_wire-brand-img">
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="solar_wire-brand-card">
+          <img src="./assets/img/polyvab_c.png" alt="Polycab" class="img-fluid solar_wire-brand-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ═══════════════════════════════ TESTIMONIALS ═══════════════════════════════ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-tag"><i class="bi bi-star-fill me-1"></i> Testimonials</div>
+      <h2 class="section-title">What Our <span>Clients Say</span></h2>
+      <div class="divider"></div>
+      <p class="section-sub mx-auto">Real stories from real customers who made the switch to <span>Nabhas solar</span> .</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p class="testi-text">We installed a solar roof for our office building, and the results are excellent. Our monthly electricity bills have reduced significantly, and power supply is much more stable now. The installation was smooth and professional. A smart investment for any office looking to cut costs.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"></div>
             <div>
-              <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="40">0</div>
-              <div style="font-size:.8rem;color:rgba(255,255,255,.65);">% Avg Bill Reduction</div>
-            </div>
-            <div>
-              <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="25">0</div>
-              <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year Panel Warranty</div>
-            </div>
-            <div>
-              <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="7">0</div>
-              <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year ROI Average</div>
+              <div class="testi-name">Srinivas </div>
+              <div class="testi-role">Kovvur</div>
             </div>
           </div>
         </div>
-        <div class="col-lg-7 fade-up fade-up-d2">
-          <div class="benefit-item">
-            <div class="bi-icon"><i class="bi bi-piggy-bank-fill"></i></div>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p class="testi-text">I decided to install solar roofing for my home, and I'm extremely happy with the outcome. My electricity bills have dropped noticeably, leading to real monthly savings It feels good to use clean energy while reducing expenses. Highly satisfied with the decision.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"></div>
             <div>
-              <div class="bi-title">Significant Cost Savings</div>
-              <div class="bi-text">Slash your electricity bills by up to 90%. With federal and state tax incentives, most homeowners see full ROI within 5–8 years.</div>
+              <div class="testi-name"> Y.Dhanalakshmi</div>
+              <div class="testi-role">Kakinada (Avani Appartments)</div>
             </div>
           </div>
-          <div class="benefit-item">
-            <div class="bi-icon"><i class="bi bi-globe2"></i></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Getting a solar roof installed at our home was one of the best decisions we made. Our power bills have come down drastically, and we feel good about using renewable energy. The system works perfectly, and the team explained everything clearly.</p>
+          <div class="testi-author">
+            <div class="testi-avatar"></div>
             <div>
-              <div class="bi-title">Eco-Friendly & Clean</div>
-              <div class="bi-text">Every kWh of solar power prevents approximately 0.85 lbs of CO₂ emissions. A typical system offsets 3–4 tons of carbon annually.</div>
-            </div>
-          </div>
-          <div class="benefit-item">
-            <div class="bi-icon"><i class="bi bi-infinity"></i></div>
-            <div>
-              <div class="bi-title">Renewable & Limitless</div>
-              <div class="bi-text">The sun provides 10,000× more energy than humanity currently uses. Solar energy is truly inexhaustible and immune to fuel price shocks.</div>
-            </div>
-          </div>
-          <div class="benefit-item">
-            <div class="bi-icon"><i class="bi bi-shield-check-fill"></i></div>
-            <div>
-              <div class="bi-title">Energy Independence</div>
-              <div class="bi-text">Protect yourself from grid outages and rising utility rates. With battery backup, enjoy power 24/7 regardless of the grid's status.</div>
-            </div>
-          </div>
-          <div class="benefit-item">
-            <div class="bi-icon"><i class="bi bi-graph-up-arrow"></i></div>
-            <div>
-              <div class="bi-title">Increased Property Value</div>
-              <div class="bi-text">Solar-equipped homes sell for 3–4% more on average and spend fewer days on the market, according to National Renewable Energy Lab data.</div>
+              <div class="testi-name">Rama Thota Ramana Rao, </div>
+              <div class="testi-role">kovvuru</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════════ TESTIMONIALS ═══════════════════════════════ -->
-  <section id="testimonials">
-    <div class="container">
-      <div class="text-center mb-5 fade-up">
-        <div class="section-tag"><i class="bi bi-star-fill me-1"></i> Testimonials</div>
-        <h2 class="section-title">What Our <span>Clients Say</span></h2>
-        <div class="divider"></div>
-        <p class="section-sub mx-auto">Real stories from real customers who made the switch to <span>Nabhas solar</span> .</p>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
-          <div class="testi-card">
-            <div class="stars">★★★★★</div>
-            <div class="testi-quote">"</div>
-            <p class="testi-text">SolarVolt transformed our energy bills. We used to pay $380/month — now it's under $40. The installation was flawless and the team was incredibly professional throughout.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">MJ</div>
-              <div>
-                <div class="testi-name">Michael Johnson</div>
-                <div class="testi-role">Homeowner · Phoenix, AZ</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
-          <div class="testi-card">
-            <div class="stars">★★★★★</div>
-            <div class="testi-quote">"</div>
-            <p class="testi-text">As a business owner, energy costs were a major concern. SolarVolt's commercial solution cut our overhead by 60%. The monitoring dashboard is a game changer for transparency.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">SC</div>
-              <div>
-                <div class="testi-name">Sarah Chen</div>
-                <div class="testi-role">CEO, GreenBite Foods · Austin, TX</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
-          <div class="testi-card">
-            <div class="stars">★★★★★</div>
-            <div class="testi-quote">"</div>
-            <p class="testi-text">The consultation process was thorough and no-pressure. They explained every detail, handled all the permits, and the battery backup has already saved us twice during grid outages.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">RK</div>
-              <div>
-                <div class="testi-name">Robert & Karen Mills</div>
-                <div class="testi-role">Homeowners · Denver, CO</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Trust badges -->
-      <!-- <div class="row justify-content-center mt-5 g-4 fade-up">
+    <!-- Trust badges -->
+    <!-- <div class="row justify-content-center mt-5 g-4 fade-up">
         <div class="col-auto">
           <div class="d-flex align-items-center gap-2 px-4 py-3 rounded-3" style="background:var(--light-bg);">
             <i class="bi bi-patch-check-fill text-success fs-4"></i>
@@ -497,39 +615,39 @@
           </div>
         </div>
       </div> -->
-    </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
-  <section id="contact">
-    <div class="container">
-      <div class="text-center mb-5 fade-up">
-        <div class="section-tag"><i class="bi bi-envelope-fill me-1"></i> Contact Us</div>
-        <h2 class="section-title">Get Your <span>Free Quote</span> Today</h2>
-        <div class="divider"></div>
-        <p class="section-sub mx-auto">Ready to go solar? Fill out the form below and one of our experts will reach out within 24 hours.</p>
-      </div>
-      <div class="row g-5">
-        <div class="col-lg-7 fade-up">
-          <div class="contact-form-wrap">
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label class="form-label">First Name</label>
-                <input type="text" class="form-control" placeholder="John" />
-              </div>
-              <!-- <div class="col-md-6">
+<!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="text-center mb-5 fade-up">
+      <div class="section-tag"><i class="bi bi-envelope-fill me-1"></i> Contact Us</div>
+      <h2 class="section-title">Solar energy <span>The power of</span>the future</h2>
+      <div class="divider"></div>
+      <!-- <p class="section-sub mx-auto">Ready to go solar? Fill out the form below and one of our experts will reach out within 24 hours.</p> -->
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-7 fade-up">
+        <div class="contact-form-wrap">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="John" />
+            </div>
+            <!-- <div class="col-md-6">
                 <label class="form-label">Last Name</label>
                 <input type="text" class="form-control" placeholder="Smith" />
               </div> -->
-              <div class="col-md-6">
-                <label class="form-label">Email Address</label>
-                <input type="email" class="form-control" placeholder="sample@gmail.com" />
-              </div>
-              <div class="col-md-6">
-                <label class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" placeholder="+91 9876543210" />
-              </div>
-              <!-- <div class="col-md-6">
+            <div class="col-md-6">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="sample@gmail.com" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="+91 9876543210" />
+            </div>
+            <!-- <div class="col-md-6">
                 <label class="form-label">Property Type</label>
                 <select class="form-select">
                   <option value="">Select type…</option>
@@ -539,188 +657,235 @@
                   <option>Agricultural Land</option>
                 </select>
               </div> -->
-              <div class="col-md-6">
-                <label class="form-label">Service Interested In</label>
-                <select class="form-select">
-                  <option value="">Select service…</option>
-                  <option>Solar Installation</option>
-                  <option>Battery Storage</option>
-                  <option>Maintenance</option>
-                  <option>Energy Consultation</option>
-                </select>
-              </div>
-              <div class="col-12">
-                <label class="form-label">Message</label>
-                <textarea class="form-control" rows="4" placeholder="Tell us about your energy needs, property size, or any questions you have…"></textarea>
-              </div>
-              <div class="col-12">
-                <button class="btn-submit"><i class="bi bi-send-fill me-2"></i>Send My Free Quote Request</button>
-              </div>
+            <div class="col-md-6">
+              <label class="form-label">Service Interested In</label>
+              <select class="form-select">
+                <option value="">Select service…</option>
+                <option>Solar Installation</option>
+                <option>Battery Storage</option>
+                <option>Maintenance</option>
+                <option>Energy Consultation</option>
+              </select>
             </div>
-          </div>
-        </div>
-
-        <div class="col-lg-5 fade-up fade-up-d2">
-          <div class="contact-info-item">
-            <div class="ci-icon"><i class="bi bi-telephone-fill"></i></div>
-            <div>
-              <div class="ci-label">Phone</div>
-              <div class="ci-value">+91 83419 50894</div>
-              <!-- <div style="font-size:.82rem;color:var(--gray);">Mon–Fri 8am–7pm, Sat 9am–4pm</div> -->
+            <div class="col-12">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Tell us about your energy needs, property size, or any questions you have…"></textarea>
             </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="ci-icon"><i class="bi bi-envelope-fill"></i></div>
-            <div>
-              <div class="ci-label">Email</div>
-              <div class="ci-value">project@nabhasconstuctions.com</div>
-              <!-- <div style="font-size:.82rem;color:var(--gray);">We reply within 2 business hours</div> -->
+            <div class="col-12">
+              <button class="btn-submit"><i class="bi bi-send-fill me-2"></i>Send Meassage</button>
             </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="ci-icon"><i class="bi bi-geo-alt-fill"></i></div>
-            <div>
-              <div class="ci-label">Headquarters</div>
-              <div class="ci-value">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</div>
-              <!-- <div style="font-size:.82rem;color:var(--gray);">Phoenix, AZ 85001, USA</div> -->
-            </div>
-          </div>
-
-          <div class="map-placeholder mt-2">
-            <i class="bi bi-map-fill"></i>
-            <p><strong>SolarVolt HQ</strong></p>
-            <p style="font-size:.82rem;">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</p>
-            <a href="https://maps.app.goo.gl/eM3PycEEhmCu91YV9" target="_blank" class="btn-leaf" style="font-size:.82rem;padding:8px 20px;">Open in Maps</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
-  <footer>
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-4">
-          <div class="footer-brand"><i class="bi bi-brightness-high-fill me-1"></i>Solar<span>Volt</span></div>
-          <p class="footer-desc">Empowering homes and businesses with clean, reliable solar energy since 2009. NABCEP certified. ISO 9001 quality assured.</p>
-          <div class="footer-social">
-            <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+      <div class="col-lg-5 fade-up fade-up-d2">
+        <div class="contact-info-item">
+          <div class="ci-icon"><i class="bi bi-telephone-fill"></i></div>
+          <div>
+            <div class="ci-label">Phone</div>
+            <div class="ci-value">+91 83419 50894</div>
+            <!-- <div style="font-size:.82rem;color:var(--gray);">Mon–Fri 8am–7pm, Sat 9am–4pm</div> -->
           </div>
         </div>
-        <div class="col-6 col-lg-2">
-          <div class="footer-title">Company</div>
-          <a href="#about" class="footer-link">About Us</a>
-          <a href="#projects" class="footer-link">Projects</a>
-          <a href="#testimonials" class="footer-link">Reviews</a>
-          <a href="#contact" class="footer-link">Careers</a>
-          <a href="#contact" class="footer-link">Press</a>
+        <div class="contact-info-item">
+          <div class="ci-icon"><i class="bi bi-envelope-fill"></i></div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value">project@nabhasconstuctions.com</div>
+            <!-- <div style="font-size:.82rem;color:var(--gray);">We reply within 2 business hours</div> -->
+          </div>
         </div>
-        <div class="col-6 col-lg-2">
-          <div class="footer-title">Services</div>
-          <a href="#services" class="footer-link">Residential</a>
-          <a href="#services" class="footer-link">Commercial</a>
-          <a href="#services" class="footer-link">Maintenance</a>
-          <a href="#services" class="footer-link">Consultation</a>
-          <a href="#services" class="footer-link">Battery Storage</a>
+        <div class="contact-info-item">
+          <div class="ci-icon"><i class="bi bi-geo-alt-fill"></i></div>
+          <div>
+            <div class="ci-label">Headquarters</div>
+            <div class="ci-value">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</div>
+            <!-- <div style="font-size:.82rem;color:var(--gray);">Phoenix, AZ 85001, USA</div> -->
+          </div>
         </div>
-        <div class="col-6 col-lg-2">
+
+        <div class="map-placeholder mt-2">
+          <i class="bi bi-map-fill"></i>
+          <p><strong>SolarVolt HQ</strong></p>
+          <p style="font-size:.82rem;">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</p>
+          <a href="https://maps.app.goo.gl/eM3PycEEhmCu91YV9" target="_blank" class="btn-leaf" style="font-size:.82rem;padding:8px 20px;">Open in Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<script>
+  var swiper = new Swiper(".custom-slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerslide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".custom-swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    autoplay: {
+      delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+      disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+    },
+    navigation: {
+      nextEl: ".swiper-button-next.custom-swiper-navBtn",
+      prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      520: {
+        slidesPerView: 2,
+      },
+      950: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>
+
+
+
+
+
+
+
+<!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="footer-brand"><i class="bi bi-brightness-high-fill me-1"></i>Solar<span>Volt</span></div>
+        <p class="footer-desc">Empowering homes and businesses with clean, reliable solar energy since 2009. NABCEP certified. ISO 9001 quality assured.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <div class="footer-title">Company</div>
+        <a href="#about" class="footer-link">About Us</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#testimonials" class="footer-link">Reviews</a>
+        <a href="#contact" class="footer-link">Careers</a>
+        <a href="#contact" class="footer-link">Press</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <div class="footer-title">Services</div>
+        <a href="#services" class="footer-link">Residential</a>
+        <a href="#services" class="footer-link">Commercial</a>
+        <a href="#services" class="footer-link">Maintenance</a>
+        <a href="#services" class="footer-link">Consultation</a>
+        <a href="#services" class="footer-link">Battery Storage</a>
+      </div>
+      <!-- <div class="col-6 col-lg-2">
           <div class="footer-title">Products</div>
           <a href="#products" class="footer-link">Solar Panels</a>
           <a href="#products" class="footer-link">Inverters</a>
           <a href="#products" class="footer-link">Batteries</a>
           <a href="#products" class="footer-link">Monitoring</a>
           <a href="#products" class="footer-link">Accessories</a>
-        </div>
-        <div class="col-6 col-lg-2">
-          <div class="footer-title">Legal</div>
-          <a href="#" class="footer-link">Privacy Policy</a>
-          <a href="#" class="footer-link">Terms of Service</a>
-          <a href="#" class="footer-link">Warranty Info</a>
-          <a href="#" class="footer-link">Financing</a>
-          <a href="#contact" class="footer-link">Contact Us</a>
-        </div>
-      </div>
-      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
-        <div>© 2024 SolarVolt Energy Inc. All rights reserved.</div>
-        <div class="d-flex align-items-center gap-2">
-          <i class="bi bi-sun-fill" style="color:var(--sun);"></i>
-          <span>100% Powered by Renewable Energy</span>
-        </div>
+        </div> -->
+      <div class="col-6 col-lg-2">
+        <div class="footer-title">Legal</div>
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Service</a>
+        <a href="#" class="footer-link">Warranty Info</a>
+        <a href="#" class="footer-link">Financing</a>
+        <a href="#contact" class="footer-link">Contact Us</a>
       </div>
     </div>
-  </footer>
+    <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <div>© 2026 Nabhas Solar. All rights reserved.</div>
+      <div class="d-flex align-items-center gap-2">
+        <i class="bi bi-sun-fill" style="color:var(--sun);"></i>
+        <span>100% Powered by Renewable Energy</span>
+      </div>
+    </div>
+  </div>
+</footer>
 
-  <!-- Back to Top -->
-  <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-    <i class="bi bi-arrow-up"></i>
-  </button>
+<!-- Back to Top -->
+<button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="bi bi-arrow-up"></i>
+</button>
 
-  <!-- Bootstrap 5 JS -->
+<!-- Bootstrap 5 JS -->
 
 
-  <script>
-    /* ── NAVBAR SCROLL ──── */
-    const nav = document.getElementById('mainNav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 40);
-      document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+<script>
+  /* ── NAVBAR SCROLL ──── */
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+    document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+  });
+
+  /* ── FADE-UP OBSERVER ── */
+  const fadeEls = document.querySelectorAll('.fade-up');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
     });
+  }, {
+    threshold: 0.12
+  });
+  fadeEls.forEach(el => observer.observe(el));
 
-    /* ── FADE-UP OBSERVER ── */
-    const fadeEls = document.querySelectorAll('.fade-up');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          observer.unobserve(e.target);
-        }
-      });
-    }, {
-      threshold: 0.12
+  /* ── COUNTER ANIMATION ── */
+  function animateCounter(el) {
+    const target = +el.dataset.target;
+    const duration = 1800;
+    const step = target / (duration / 16);
+    let current = 0;
+    const timer = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        el.textContent = target;
+        clearInterval(timer);
+      } else {
+        el.textContent = Math.floor(current);
+      }
+    }, 16);
+  }
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('.count-num').forEach(animateCounter);
+        counterObserver.unobserve(e.target);
+      }
     });
-    fadeEls.forEach(el => observer.observe(el));
+  }, {
+    threshold: 0.3
+  });
+  document.querySelectorAll('#hero, #benefits').forEach(s => counterObserver.observe(s));
 
-    /* ── COUNTER ANIMATION ── */
-    function animateCounter(el) {
-      const target = +el.dataset.target;
-      const duration = 1800;
-      const step = target / (duration / 16);
-      let current = 0;
-      const timer = setInterval(() => {
-        current += step;
-        if (current >= target) {
-          el.textContent = target;
-          clearInterval(timer);
-        } else {
-          el.textContent = Math.floor(current);
-        }
-      }, 16);
-    }
-    const counterObserver = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.querySelectorAll('.count-num').forEach(animateCounter);
-          counterObserver.unobserve(e.target);
-        }
-      });
-    }, {
-      threshold: 0.3
+  /* ── SMOOTH NAV CLOSE ON MOBILE ── */
+  document.querySelectorAll('#navMenu .nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      const c = bootstrap.Collapse.getInstance(document.getElementById('navMenu'));
+      if (c) c.hide();
     });
-    document.querySelectorAll('#hero, #benefits').forEach(s => counterObserver.observe(s));
-
-    /* ── SMOOTH NAV CLOSE ON MOBILE ── */
-    document.querySelectorAll('#navMenu .nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        const c = bootstrap.Collapse.getInstance(document.getElementById('navMenu'));
-        if (c) c.hide();
-      });
-    });
-  </script>
+  });
+</script>
 </body>
 
 </html>

@@ -27,6 +27,9 @@ a {
     text-decoration: none;
 }
 
+img{
+    border-radius: 8px;
+}
 .navbar {
     max-width: 1400px;
     margin: 20px auto;
@@ -603,18 +606,20 @@ section {
     margin-bottom: 14px;
 }
 
-.section-title {
+/* .section-title {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800;
     line-height: 1.15;
     color: var(--navy);
     margin-bottom: 16px;
-}
+} */
 
 .section-title span {
     color: var(--leaf);
 }
-
+.section-title-section span {
+    color: var(--leaf);
+}
 .section-sub {
     font-size: 1.05rem;
     color: var(--gray);
@@ -1409,7 +1414,20 @@ footer {
       color: #0B1F3A;
       margin-bottom: 14px;
     }
-
+    .section-title-section{
+        /* font-size: clamp(2rem, 4vw, 3rem); */
+        font-size: 30px !important;
+      font-weight: 800;
+      line-height: 1.12;
+      color: #0B1F3A;
+      margin-bottom: 14px;
+    }
+@media (max-width:768px) {
+        .section-title-section{
+        /* font-size: clamp(2rem, 4vw, 3rem); */
+        font-size: 18px !important;
+        }
+}
     .section-title span {
       color: #1A7A4A;
     }
@@ -3191,3 +3209,89 @@ footer {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 
     }
+
+    /* branfing wites  */
+    /* Section Styling */
+.solar_wire-brands-section {
+  /* background-color: #fcfdfe;  */
+  background-color: var(--light-bg);
+}
+
+.solar_wire-section-tag {
+  background: #f0f3f5;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.solar_wire-main-title {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.solar_wire-subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Card Styling - Standard Color */
+.solar_wire-brand-card {
+  padding: 25px;
+  background: #ffffff; /* Suddhamaina white background */
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Chinna normal shadow */
+  border: 1px solid #e9ecef; /* Normal condition lo chala smooth border */
+}
+
+/* Pop-up Effect on Hover */
+.solar_wire-brand-card:hover {
+  transform: translateY(-8px) scale(1.05); /* Konchem paiki mariyu zoom */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Hover lo pedda shadow */
+  border: 1px solid transparent; /* Border remove chesthunnam hover lo */
+}
+
+.solar_wire-brand-img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  filter: none; /* Black and White filter tiseshanu */
+  transition: transform 0.3s ease; /* Card move avvakunda image kooda subtle ga react avvadaniki */
+}
+
+
+
+
+/* button for button    */
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  /* padding: 1.3em 3em; */
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #1A7A4A;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}

@@ -1,4 +1,4 @@
-<?php include 'navbar.php' ; ?>
+<?php include 'navbar.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,7 +36,7 @@
             <i class="bi bi-people-fill"></i>
           </div>
           <div class="solar-review-cb-text">
-            <strong>300+</strong> Customers Across India
+            <strong>300+</strong>Happy Customers 
           </div>
         </div>
 
@@ -50,7 +50,7 @@
 
           <div class="solar-review-testi-card">
             <span class="solar-review-testi-quote-mark">"</span>
-            <p class="solar-review-testi-text">Our monthly electricity bills have reduced significantly. Installation was professional.</p>
+            <p class="solar-review-testi-text">We installed a solar roof for our office building, and the results are excellent. Our monthly electricity bills have reduced significantly, and power supply is much more stable now. The installation was smooth and professional. A smart investment for any office looking to cut costs.</p>
             <div class="solar-review-testi-author">
               <div class="solar-review-testi-avatar">SK</div>
               <div>
@@ -62,7 +62,7 @@
 
           <div class="solar-review-testi-card">
             <span class="solar-review-testi-quote-mark">"</span>
-            <p class="solar-review-testi-text">Extremely happy with the outcome. Real monthly savings and clean energy.</p>
+            <p class="solar-review-testi-text">I decided to install solar roofing for my home, and I'm extremely happy with the outcome. My electricity bills have dropped noticeably, leading to real monthly savings It feels good to use clean energy while reducing expenses. Highly satisfied with the decision.</p>
             <div class="solar-review-testi-author">
               <div class="solar-review-testi-avatar">YD</div>
               <div>
@@ -74,7 +74,7 @@
 
           <div class="solar-review-testi-card">
             <span class="solar-review-testi-quote-mark">"</span>
-            <p class="solar-review-testi-text">Best decision we made. Our power bills have come down drastically.</p>
+            <p class="solar-review-testi-text">Getting a solar roof installed at our home was one of the best decisions we made. Our power bills have come down drastically, and we feel good about using renewable energy. The system works perfectly, and the team explained everything clearly</p>
             <div class="solar-review-testi-author">
               <div class="solar-review-testi-avatar">RR</div>
               <div>
@@ -86,7 +86,7 @@
 
           <div class="solar-review-testi-card">
             <span class="solar-review-testi-quote-mark">"</span>
-            <p class="solar-review-testi-text">Impressive reduction in power bills. Great long-term benefits for our home.</p>
+            <p class="solar-review-testi-text">We installed a solar roof for our home to manage rising electricity costs. The reduction in power bills has been impressive, and it has improved our overall operational efficiency. Reliable installation and great long-term benefits.</p>
             <div class="solar-review-testi-author">
               <div class="solar-review-testi-avatar">DV</div>
               <div>
@@ -98,7 +98,7 @@
 
           <div class="solar-review-testi-card">
             <span class="solar-review-testi-quote-mark">"</span>
-            <p class="solar-review-testi-text">Exceeded expectations. ROI is clearly visible from the first month.</p>
+            <p class="solar-review-testi-text">The solar roof installation for our individual home connection has exceeded expectations. Electricity costs are much lower now, and the return on investment is clearly visible. Excellent service, timely execution, and noticeable savings from the very first month.</p>
             <div class="solar-review-testi-author">
               <div class="solar-review-testi-avatar">AR</div>
               <div>

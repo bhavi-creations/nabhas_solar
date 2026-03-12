@@ -79,7 +79,7 @@
             <div class="float-chip chip-2">
               <div class="fc-icon" style="background:#fff3cd;color:#856404;"><i class="bi bi-lightning-charge-fill"></i></div>
               <div>
-                <div class="fc-val">500 MW+</div>
+                <div class="fc-val">400+</div>
                 <div class="fc-lbl">Installed Capacity</div>
               </div>
             </div>
@@ -141,23 +141,23 @@
       <!-- Stat strip -->
       <div class="stat-strip fade-up fd3">
         <div class="stat-strip-item">
-          <div class="ss-num">500<span style="font-size:1rem;">MW+</span></div>
+          <div class="ss-num">400<span style="font-size:1rem;">+</span></div>
           <div class="ss-lbl">Installed Capacity</div>
         </div>
-        <div class="stat-strip-item">
+        <!-- <div class="stat-strip-item">
           <div class="ss-num">2,000+</div>
           <div class="ss-lbl">Projects Completed</div>
-        </div>
+        </div> -->
         <div class="stat-strip-item">
           <div class="ss-num">98%</div>
           <div class="ss-lbl">Client Satisfaction</div>
         </div>
-        <div class="stat-strip-item">
+        <!-- <div class="stat-strip-item">
           <div class="ss-num">12+</div>
           <div class="ss-lbl">Years Experience</div>
-        </div>
+        </div> -->
         <div class="stat-strip-item">
-          <div class="ss-num">40%</div>
+          <div class="ss-num">90%</div>
           <div class="ss-lbl">Avg. Bill Reduction</div>
         </div>
       </div>
@@ -256,8 +256,8 @@
           <div class="cta-headline">Ready to Switch to Solar?</div>
           <div class="cta-sub">Get a free site assessment and customized energy proposal from our experts — no obligation.</div>
         </div>
-        <a href="#contact" class="btn-sun-lg">
-          <i class="bi bi-lightning-charge-fill"></i> Get Free Assessment
+        <a href="contact.php" class="btn-sun-lg">
+          <i class="bi bi-lightning-charge-fill"></i> Contact us
         </a>
       </div>
 

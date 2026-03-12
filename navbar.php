@@ -2,52 +2,56 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nabhas Solar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nabhas Solar</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style1.css"> -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- 3 image slide links  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <!-- 3 image slide links  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  
-    <link rel="shortcut icon" href="./assets/img/new_2.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <link rel="shortcut icon" href="./assets/img/new_2.png" type="image/x-icon">
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-   
+
+        <!-- image slider  -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.png" alt="Sreenika Logo">
-                <!-- <img src="logo_1.png" alt="Sreenika Logo"> -->
-            </a>
+        <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                                <img src="./assets/img/logo.png" alt="Sreenika Logo">
+                                <!-- <img src="logo_1.png" alt="Sreenika Logo"> -->
+                        </a>
 
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
-                <span class="toggler-icon"></span>
-            </button>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                        </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-                    <!-- <li class="nav-item dropdown">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                        <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="about.html" id="serviceDrop" role="button"
                             data-bs-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu">
@@ -179,28 +183,31 @@
 
                         </ul>
                     </li> -->
-                    <!-- <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="service.php">Service</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                    <!-- <li class="nav-item "><a class="nav-link appointment_section" href="appointment.php">Appointment</a> -->
-                    </li>
+                                        <!-- <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li> -->
+                                        <li class="nav-item"><a class="nav-link" href="service.php">Service</a></li>
+                                        <!-- <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li> -->
+                                        <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                                        <!-- <li class="nav-item "><a class="nav-link appointment_section" href="appointment.php">Appointment</a> -->
+                                        </li>
+
+                                        <button>
+
+
+
+                                                <li class="nav-item">
+
+                                                        <a class="nav-link new_slider_section_call_btn" href="tel:+9172071 09262">
+                                                                <i class="bi bi-telephone-fill"></i> <span>+91 8341950894</span>
+                                                        </a>
+                                                </li>
+                                        </button>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
 
 
 
 
-                    <li class="nav-item">
-                        <a class="nav-link new_slider_section_call_btn" href="tel:+9172071 09262">
-                            <i class="bi bi-telephone-fill"></i> <span>+91 8341950894</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,4 +1,5 @@
 <?php include 'navbar.php'; ?>
+<img src="./assets/img/2.png" alt="" class="img-fluid">
 
 
 
@@ -131,7 +132,7 @@
                 <div class="col-sm-6 col-lg-4 fade-up fd4">
                     <div class="solar-service-card-wrap">
                         <div class="solar-service-img-frame">
-                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Battery" />
+                            <img src="./assets/img/battery_storage.png" alt="Battery" />
                             <div class="solar-service-img-badge"><i class="bi bi-battery-charging"></i> Storage</div>
                         </div>
                         <div class="solar-service-card">
@@ -154,7 +155,7 @@
                 <div class="col-sm-6 col-lg-4 fade-up fd5">
                     <div class="solar-service-card-wrap">
                         <div class="solar-service-img-frame">
-                            <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="Maintenance" />
+                            <img src="./assets/img/AMC.png" alt="Maintenance" />
                             <div class="solar-service-img-badge"><i class="bi bi-wrench-adjustable"></i> Maintenance</div>
                         </div>
                         <div class="solar-service-card">
@@ -177,7 +178,7 @@
                 <div class="col-sm-6 col-lg-4 fade-up fd6">
                     <div class="solar-service-card-wrap">
                         <div class="solar-service-img-frame">
-                            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80" alt="Monitoring" />
+                            <img src="./assets/img/moniotar.png" alt="Monitoring" class="img-fluid" />
                             <div class="solar-service-img-badge"><i class="bi bi-graph-up-arrow"></i> Monitoring</div>
                         </div>
                         <div class="solar-service-card">
@@ -244,8 +245,9 @@
                     <div class="solar-service-cta-sub">Get a free site assessment and zero-obligation proposal within 24 hours.</div>
                 </div>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="#" class="solar-service-btn-cta-white"><i class="bi bi-lightning-charge-fill"></i> Get Free Quote</a>
-                    <a href="#" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> Call Us Now</a>
+                    <!-- <a href="#" class="solar-service-btn-cta-white"><i class="bi bi-lightning-charge-fill"></i> Get Free Quote</a> -->
+                    <a href="contact.php" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> Call Us Now</a>
+                    
                 </div>
             </div>
 
@@ -254,7 +256,7 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
     <script>
         const obs = new IntersectionObserver(entries => {
             entries.forEach(e => {
@@ -268,6 +270,4 @@
         });
         document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
     </script>
-</body>
-
-</html>
+<?php include 'footer.php' ; ?>

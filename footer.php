@@ -1,414 +1,573 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nabhas Solar – Industrial ROI</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background: #0d1117;
-            font-family: 'DM Sans', sans-serif;
-            color: #e8e8e8;
-            overflow-x: hidden;
-        }
+<!-- ===== NABHAS SOLAR FOOTER START ===== -->
 
-        /* ── SECTION WRAPPER ── */
-        .solar-section {
-            position: relative;
-            padding: 80px 0 100px;
-            overflow: hidden;
-        }
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-        /* diagonal amber stripe */
-        .solar-section::before {
-            content: '';
-            position: absolute;
-            top: -120px;
-            right: -200px;
-            width: 700px;
-            height: 700px;
-            background: radial-gradient(ellipse at center, rgba(243,156,18,0.18) 0%, transparent 70%);
-            pointer-events: none;
-        }
+<style>
+    /* ---- FOOTER WRAPPER ---- */
+    .nabhas_footer_section {
+        position: relative;
+        background: linear-gradient(160deg, #020b18 0%, #04183a 40%, #061e4a 70%, #030e22 100%);
+        color: #ffffff;
+        padding: 80px 0 0;
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+    }
 
-        /* ── HEADER BLOCK ── */
-        .section-eyebrow {
-            font-family: 'DM Sans', sans-serif;
-            font-weight: 600;
-            font-size: 0.78rem;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
-            color: #f39c12;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 14px;
-        }
-        .section-eyebrow::before {
-            content: '';
-            display: inline-block;
-            width: 30px;
-            height: 2px;
-            background: #f39c12;
-        }
+    /* ---- GLOWING BACKGROUND BLOBS ---- */
+    .nabhas_footer_section::before {
+        content: "";
+        position: absolute;
+        top: -80px;
+        left: -100px;
+        width: 420px;
+        height: 420px;
+        background: radial-gradient(circle, rgba(0, 180, 255, 0.10) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
 
-        .section-title {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(2.8rem, 6vw, 5rem);
-            line-height: 1;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-        }
-        .section-title span {
-            color: #f39c12;
-        }
+    .nabhas_footer_section::after {
+        content: "";
+        position: absolute;
+        bottom: 60px;
+        right: -80px;
+        width: 380px;
+        height: 380px;
+        background: radial-gradient(circle, rgba(255, 140, 0, 0.08) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
 
-        .section-subtitle {
-            font-size: 1rem;
-            color: #8a95a3;
-            font-weight: 300;
-            max-width: 500px;
-        }
+    /* ---- TOP SOLAR DIVIDER ---- */
+    .nabhas_footer_top_bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, transparent 0%, #00aaff 30%, #ffa500 60%, #00aaff 80%, transparent 100%);
+    }
 
-        /* ── STAT STRIP ── */
-        .stat-strip {
-            background: linear-gradient(135deg, #1a2332 0%, #1e2d42 100%);
-            border: 1px solid rgba(243,156,18,0.2);
-            border-radius: 16px;
-            padding: 32px 40px;
-            margin: 50px 0;
-        }
-        .stat-item {
+    /* ---- LOGO ---- */
+    .nabhas_footer_logo {
+        width:250px;
+        margin-bottom: 18px;
+        filter: brightness(1.15);
+        background-color: white;
+        padding: 10px;
+    }
+
+    /* ---- TAGLINE BADGE ---- */
+    .nabhas_tagline_badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(0, 170, 255, 0.12);
+        border: 1px solid rgba(0, 170, 255, 0.3);
+        color: #5dcfff;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        padding: 5px 12px;
+        border-radius: 20px;
+        margin-bottom: 14px;
+    }
+
+    .nabhas_tagline_badge i {
+        color: #ffa500;
+        font-size: 10px;
+    }
+
+    /* ---- FOOTER TEXT ---- */
+    .nabhas_footer_text {
+        font-size: 13.5px;
+        color: #9db4d8;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    /* ---- SOCIAL ICONS ---- */
+    .nabhas_social_row {
+        display: flex;
+        gap: 10px;
+        margin-top: 6px;
+    }
+
+    .nabhas_social_icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        text-decoration: none;
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nabhas_social_icon:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 170, 255, 0.3);
+    }
+
+    .nabhas_si_fb {
+        background: rgba(24, 119, 242, 0.2);
+        color: #5b9cf6;
+    }
+
+    .nabhas_si_ig {
+        background: rgba(225, 48, 108, 0.2);
+        color: #f26093;
+    }
+
+    .nabhas_si_yt {
+        background: rgba(255, 0, 0, 0.2);
+        color: #ff6161;
+    }
+
+    .nabhas_si_li {
+        background: rgba(0, 119, 181, 0.2);
+        color: #5ba8d4;
+    }
+
+    .nabhas_si_wa {
+        background: rgba(37, 211, 102, 0.2);
+        color: #4dd87b;
+    }
+
+    /* ---- SECTION TITLE ---- */
+    .nabhas_footer_title {
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        font-size: 17px;
+        margin-bottom: 26px;
+        color: #ffffff;
+        letter-spacing: 0.3px;
+        position: relative;
+        padding-bottom: 12px;
+    }
+
+    .nabhas_footer_title::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 36px;
+        height: 3px;
+        border-radius: 4px;
+        background: linear-gradient(90deg, #00aaff, #ffa500);
+    }
+
+    /* ---- QUICK LINKS ---- */
+    .nabhas_footer_links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nabhas_footer_links li {
+        margin-bottom: 9px;
+    }
+
+    .nabhas_footer_links a {
+        color: #9db4d8;
+        text-decoration: none;
+        font-size: 13.5px;
+        transition: color 0.3s, padding-left 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nabhas_footer_links a::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #00aaff, #0066cc);
+        flex-shrink: 0;
+        transition: transform 0.3s;
+    }
+
+    .nabhas_footer_links a:hover {
+        color: #ffffff;
+        padding-left: 4px;
+    }
+
+    .nabhas_footer_links a:hover::before {
+        transform: scale(1.5);
+        background: linear-gradient(135deg, #ffa500, #ff6600);
+    }
+
+    /* ---- CONTACT LIST ---- */
+    .nabhas_footer_contact {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nabhas_footer_contact li {
+        display: flex;
+        gap: 14px;
+        margin-bottom: 16px;
+        font-size: 13.5px;
+        color: #9db4d8;
+        align-items: flex-start;
+    }
+
+    .nabhas_contact_icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 9px;
+        background: rgba(0, 170, 255, 0.12);
+        border: 1px solid rgba(0, 170, 255, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 1px;
+    }
+
+    .nabhas_contact_icon i {
+        color: #00aaff;
+        font-size: 13px;
+    }
+
+    .nabhas_contact_text strong {
+        display: block;
+        color: #c8daf2;
+        font-size: 11px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+        font-weight: 600;
+    }
+
+    .nabhas_contact_text span {
+        color: #9db4d8;
+        font-size: 13.5px;
+        line-height: 1.6;
+    }
+
+    /* ---- STATS ROW ---- */
+    .nabhas_footer_stats {
+        display: flex;
+        gap: 0;
+        margin-top: 24px;
+        border: 1px solid rgba(0, 170, 255, 0.15);
+        border-radius: 14px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.02);
+    }
+
+    .nabhas_stat_item {
+        flex: 1;
+        text-align: center;
+        padding: 14px 8px;
+        border-right: 1px solid rgba(0, 170, 255, 0.1);
+    }
+
+    .nabhas_stat_item:last-child {
+        border-right: none;
+    }
+
+    .nabhas_stat_num {
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        background: linear-gradient(135deg, #00aaff, #ffa500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 1;
+    }
+
+    .nabhas_stat_label {
+        font-size: 10px;
+        color: #6e8db5;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        margin-top: 4px;
+    }
+
+    /* ---- DIVIDER ---- */
+    .nabhas_footer_divider {
+        border: none;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(0, 170, 255, 0.3), rgba(255, 165, 0, 0.3), transparent);
+        margin: 40px 0 0;
+    }
+
+    /* ---- BOTTOM BAR ---- */
+    .nabhas_footer_bottom {
+        padding: 18px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nabhas_footer_copy {
+        font-size: 13px;
+        color: #6e8db5;
+    }
+
+    .nabhas_footer_copy b {
+        color: #5dcfff;
+        font-weight: 700;
+    }
+
+    .nabhas_footer_badge {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        color: #6e8db5;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        padding: 5px 12px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.02);
+    }
+
+    .nabhas_footer_badge i {
+        color: #ffa500;
+    }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 768px) {
+
+        .nabhas_footer_section {
             text-align: center;
-            position: relative;
-        }
-        .stat-item + .stat-item::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            height: 50px;
-            width: 1px;
-            background: rgba(243,156,18,0.25);
-        }
-        .stat-number {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.6rem;
-            color: #f39c12;
-            line-height: 1;
-        }
-        .stat-label {
-            font-size: 0.78rem;
-            color: #8a95a3;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-            margin-top: 4px;
+            padding-top: 60px;
         }
 
-        /* ── TABLE ── */
-        .roi-table-wrap {
-            background: #121920;
-            border: 1px solid rgba(255,255,255,0.07);
-            border-radius: 16px;
-            overflow: hidden;
-            margin-bottom: 60px;
-        }
-        .roi-table-wrap .table {
-            margin: 0;
-            color: #d0d9e4;
-        }
-        .roi-table-wrap thead tr {
-            background: #f39c12;
-        }
-        .roi-table-wrap thead th {
-            color: #0d1117;
-            font-weight: 600;
-            font-size: 0.82rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            padding: 16px 20px;
-            border: none;
-        }
-        .roi-table-wrap tbody tr {
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            transition: background 0.2s;
-        }
-        .roi-table-wrap tbody tr:last-child { border-bottom: none; }
-        .roi-table-wrap tbody tr:hover {
-            background: rgba(243,156,18,0.06);
-        }
-        .roi-table-wrap tbody td {
-            padding: 16px 20px;
-            font-size: 0.93rem;
-            border: none;
-            vertical-align: middle;
-        }
-        .roi-table-wrap .cap-label {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.3rem;
-            color: #ffffff;
-            letter-spacing: 0.06em;
-        }
-        .badge-payback {
-            background: rgba(39,174,96,0.15);
-            color: #2ecc71;
-            border: 1px solid rgba(46,204,113,0.35);
-            font-size: 0.8rem;
-            font-weight: 600;
-            padding: 5px 12px;
-            border-radius: 50px;
-        }
-        .table-note {
-            padding: 14px 22px;
-            background: rgba(243,156,18,0.06);
-            border-top: 1px solid rgba(243,156,18,0.12);
-            font-size: 0.78rem;
-            color: #8a95a3;
+        .nabhas_footer_title::after {
+            left: 50%;
+            transform: translateX(-50%);
         }
 
-        /* ── BENEFIT CARDS ── */
-        .benefits-heading {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            margin-bottom: 6px;
-        }
-
-        .benefit-card {
-            background: #121920;
-            border: 1px solid rgba(255,255,255,0.07);
-            border-radius: 14px;
-            padding: 30px 26px;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-            transition: border-color 0.3s, transform 0.3s;
-        }
-        .benefit-card::after {
-            content: '';
-            position: absolute;
-            bottom: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #f39c12, #e67e22);
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform 0.35s ease;
-        }
-        .benefit-card:hover {
-            border-color: rgba(243,156,18,0.35);
-            transform: translateY(-6px);
-        }
-        .benefit-card:hover::after {
-            transform: scaleX(1);
-        }
-        .benefit-icon {
-            width: 48px;
-            height: 48px;
-            background: rgba(243,156,18,0.12);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
+        .nabhas_footer_links a {
             justify-content: center;
-            color: #f39c12;
-            font-size: 1.25rem;
-            margin-bottom: 18px;
-        }
-        .benefit-card h5 {
-            font-weight: 600;
-            font-size: 1rem;
-            color: #ffffff;
-            margin-bottom: 8px;
-        }
-        .benefit-card p {
-            font-size: 0.87rem;
-            color: #8a95a3;
-            line-height: 1.65;
-            margin: 0;
         }
 
-        /* ── FOOTER NOTE ── */
-        .section-footer-note {
-            margin-top: 60px;
-            padding: 24px 32px;
-            background: linear-gradient(135deg, rgba(243,156,18,0.08), rgba(243,156,18,0.03));
-            border: 1px solid rgba(243,156,18,0.18);
-            border-radius: 12px;
-            font-size: 0.88rem;
-            color: #8a95a3;
-            display: flex;
-            align-items: center;
-            gap: 14px;
+        .nabhas_footer_contact li {
+            justify-content: center;
+            text-align: left;
         }
-        .section-footer-note i {
-            color: #f39c12;
-            font-size: 1.3rem;
-            flex-shrink: 0;
-        }
-    </style>
-</head>
-<body>
 
-<section class="solar-section">
+        .nabhas_social_row {
+            justify-content: center;
+        }
+
+        .nabhas_footer_bottom {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nabhas_footer_stats {
+            max-width: 320px;
+            margin: 24px auto 0;
+        }
+    }
+</style>
+
+<footer class="nabhas_footer_section">
+
+    <div class="nabhas_footer_top_bar"></div>
+
     <div class="container">
 
-        <!-- ── HEADER ── -->
-        <div class="row align-items-end mb-2">
-            <div class="col-lg-7">
-                <div class="section-eyebrow">Industrial Solar Investment</div>
-                <h2 class="section-title">ROI <span>Analysis</span><br>& Returns</h2>
-                <p class="section-subtitle mt-3">Smart capital allocation for sustainable industrial growth — backed by real numbers.</p>
+        <div class="row gy-5">
+
+            <!-- COLUMN 1 — BRAND -->
+            <div class="col-lg-3 col-md-6">
+
+                <img src="./assets/img/logo.png" class="nabhas_footer_logo" alt="Nabhas Solar Logo">
+
+                <div class="nabhas_tagline_badge">
+                    <i class="fas fa-sun"></i> Clean Energy Leaders
+                </div>
+
+                <p class="nabhas_footer_text">
+                    Nabhas Solar delivers innovative renewable energy solutions for homes,
+                    businesses, and industries. With 400+ successful installations, we help
+                    communities shift to clean energy while reducing carbon emissions and electricity costs.
+                </p>
+
+                <!-- SOCIAL ICONS -->
+                <div class="nabhas_social_row">
+                    <a href="#" class="nabhas_social_icon nabhas_si_fb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="nabhas_social_icon nabhas_si_ig" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="nabhas_social_icon nabhas_si_yt" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="nabhas_social_icon nabhas_si_li" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="#" class="nabhas_social_icon nabhas_si_wa" title="WhatsApp"><i class="fab fa-whatsapp"></i></a> -->
+                </div>
+
+                <!-- MINI STATS -->
+                <!-- <div class="nabhas_footer_stats">
+          <div class="nabhas_stat_item">
+            <div class="nabhas_stat_num">400+</div>
+            <div class="nabhas_stat_label">Projects</div>
+          </div>
+          <div class="nabhas_stat_item">
+            <div class="nabhas_stat_num">10+</div>
+            <div class="nabhas_stat_label">Years</div>
+          </div>
+          <div class="nabhas_stat_item">
+            <div class="nabhas_stat_num">5 MW</div>
+            <div class="nabhas_stat_label">Installed</div>
+          </div>
+        </div> -->
+
             </div>
-            <div class="col-lg-5 text-lg-end mt-3 mt-lg-0">
-                <p class="text-muted small mb-0">Based on average sunlight hours &<br>industrial tariffs in Andhra Pradesh</p>
+
+            <!-- COLUMN 2 — QUICK LINKS -->
+            <div class="col-lg-2 col-md-6">
+
+                <h4 class="nabhas_footer_title">Quick Links</h4>
+
+                <ul class="nabhas_footer_links">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="service.php">Services</a></li>
+                    <li><a href="review.php">Testimonials</a></li>
+                    <!-- <li><a href="#">Residential Solar</a></li>
+                    <li><a href="#">Projects</a></li> -->
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <!-- COLUMN 3 — SERVICES -->
+            <div class="col-lg-3 col-md-6">
+
+                <h4 class="nabhas_footer_title">Our Services</h4>
+
+                <ul class="nabhas_footer_links">
+                    <li><a href="service.php">Residential Solar Installation</a></li>
+                    <li><a href="service.php">Commercial Solar Systems</a></li>
+                    <li><a href="service.php">EPC Services</a></li>
+                    <li><a href="service.php">Battery Storage</a></li>
+                    <li><a href="service.php">AMC & Support</a></li>
+                    <li><a href="service.php">Smart Monitoring</a></li>
+                    <!-- <li><a href="#">AMC Maintenance</a></li> -->
+                </ul>
+
+            </div>
+
+            <!-- COLUMN 4 — CONTACT -->
+            <div class="col-lg-4 col-md-6">
+
+                <h4 class="nabhas_footer_title">Contact Info</h4>
+
+                <ul class="nabhas_footer_contact">
+
+                    <li>
+                        <div class="nabhas_contact_icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="nabhas_contact_text">
+                            <strong>Address</strong>
+                            <span>#70-7-2/4,2nd floor,road
+                                <br>no.4,siddartha nagar,kakinada-533005</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="nabhas_contact_icon"> <i class="bi bi-telephone-fill"></i></div>
+                        <div class="nabhas_contact_text">
+                            <strong>Phone</strong>
+                            <span>+91 8341950894</span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="nabhas_contact_icon"><i class="fas fa-envelope"></i></div>
+                        <div class="nabhas_contact_text">
+                            <strong>Email</strong>
+                            <span> project@nabhasconstuctions.com</span>
+                        </div>
+                    </li>
+
+                    <!-- <li>
+                        <div class="nabhas_contact_icon"><i class="fas fa-globe"></i></div>
+                        <div class="nabhas_contact_text">
+                            <strong>Website</strong>
+                            <span>www.nabhassolar.com</span>
+                        </div>
+                    </li> -->
+
+                </ul>
+
+            </div>
+
+        </div><!-- /row -->
+
+        <hr class="nabhas_footer_divider">
+
+        <div class="nabhas_footer_bottom">
+            <div class="nabhas_footer_copy">
+                © 2026 All Rights Reserved by <b>Nabhas Solar Pvt Ltd</b>
+            </div>
+            <div class="nabhas_footer_badge">
+                <i class="fas fa-leaf"></i> Powered by Clean Energy
             </div>
         </div>
 
-        <!-- ── STAT STRIP ── -->
-        <div class="stat-strip">
-            <div class="row g-3 g-md-0">
-                <div class="col-6 col-md-3 stat-item">
-                    <div class="stat-number">25 Yrs</div>
-                    <div class="stat-label">Asset Lifespan</div>
-                </div>
-                <div class="col-6 col-md-3 stat-item">
-                    <div class="stat-number">90%</div>
-                    <div class="stat-label">Cost Reduction</div>
-                </div>
-                <div class="col-6 col-md-3 stat-item">
-                    <div class="stat-number">~3 Yrs</div>
-                    <div class="stat-label">Avg. Payback</div>
-                </div>
-                <div class="col-6 col-md-3 stat-item">
-                    <div class="stat-number">1.5%</div>
-                    <div class="stat-label">Annual O&amp;M Cost</div>
-                </div>
-            </div>
-        </div>
+    </div><!-- /container -->
+    <style>
+        /* Style for the WhatsApp link */
+        .whatsapp-link {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
 
-        <!-- ── ROI TABLE ── -->
-        <div class="roi-table-wrap">
-            <div class="table-responsive">
-                <table class="table table-borderless align-middle text-center">
-                    <thead>
-                        <tr>
-                            <th class="text-start">Capacity</th>
-                            <th>Avg. Cost (2025)</th>
-                            <th>Annual Generation</th>
-                            <th>Annual Savings</th>
-                            <th>Payback Period</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-start cap-label">80 kW</td>
-                            <td>₹20 – 32 Lakh</td>
-                            <td>70,500 Units</td>
-                            <td>₹7 – 8 Lakh</td>
-                            <td><span class="badge-payback">3 – 3.5 Yrs</span></td>
-                        </tr>
-                        <tr>
-                            <td class="text-start cap-label">100 kW</td>
-                            <td>₹40 – 43 Lakh</td>
-                            <td>1.4 Lakh Units</td>
-                            <td>₹12 – 14 Lakh</td>
-                            <td><span class="badge-payback">3 Yrs</span></td>
-                        </tr>
-                        <tr>
-                            <td class="text-start cap-label">200 kW</td>
-                            <td>₹55 – 105 Lakh</td>
-                            <td>3.5 Lakh Units</td>
-                            <td>₹28 – 35 Lakh</td>
-                            <td><span class="badge-payback">3 – 3.4 Yrs</span></td>
-                        </tr>
-                        <tr>
-                            <td class="text-start cap-label">500 kW</td>
-                            <td>₹1.8 – 2 Crore</td>
-                            <td>7 Lakh Units</td>
-                            <td>₹55 – 70 Lakh</td>
-                            <td><span class="badge-payback">3 – 3.5 Yrs</span></td>
-                        </tr>
-                        <tr>
-                            <td class="text-start cap-label">1 MW</td>
-                            <td>₹3.5 – 4 Crore</td>
-                            <td>14 Lakh Units</td>
-                            <td>₹1 – 1.4 Crore</td>
-                            <td><span class="badge-payback">3 – 3.3 Yrs</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="table-note">
-                * Calculations based on average sunlight hours and current industrial electricity tariffs in Andhra Pradesh.
-            </div>
-        </div>
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 35px;
+            text-align: center;
+            z-index: 999;
+        }
 
-        <!-- ── BENEFITS ── -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <h3 class="benefits-heading">Long-Term <span style="color:#f39c12;">Financial</span> Benefits</h3>
-                <p class="text-muted" style="font-size:0.9rem;">Maximize your returns well beyond the payback window</p>
-            </div>
-        </div>
 
-        <div class="row g-4">
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
-                    <h5>80–90% Cost Reduction</h5>
-                    <p>Drastically lower your monthly electricity expenses and directly improve your bottom line.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h5>Tariff Protection</h5>
-                    <p>Shield your business from future electricity price hikes for the next 25 years.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-tools"></i></div>
-                    <h5>Low O&amp;M Costs</h5>
-                    <p>Minimal maintenance at 1–1.5% per year ensures high reliability with low operational effort.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-leaf"></i></div>
-                    <h5>Enhanced ESG Rating</h5>
-                    <p>Boost your corporate image and environmental score with measurable sustainable energy usage.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-battery-full"></i></div>
-                    <h5>Energy Independence</h5>
-                    <p>Gain full control over your energy production and reduce dependence on the local grid.</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-hourglass-half"></i></div>
-                    <h5>25-Year Asset Life</h5>
-                    <p>Invest once and reap the benefits of clean, free energy for over two productive decades.</p>
-                </div>
-            </div>
-        </div>
+        .call_link {
 
-        <!-- ── FOOTER NOTE ── -->
-        <div class="section-footer-note">
-            <i class="fas fa-sun"></i>
-            <span>Nabhas Solar specialises in end-to-end industrial solar installations across Andhra Pradesh &amp; Telangana. All ROI figures are indicative and vary based on site conditions, sanctioned load, and applicable state policies.</span>
-        </div>
+            position: fixed;
+            bottom: 160px;
+            right: 20px;
+            /* background-color: #25d366; */
+            color: #fff;
+            /* padding: 5px; */
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 35px;
+            text-align: center;
+            z-index: 99999;
+        }
+    </style>
 
-    </div>
-</section>
+    <a href="https://api.whatsapp.com/send?phone=918341950894" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+
+
+
+
+    <a href="tel:+919290019948" style="color: #fff;" class="call_link  "
+        target="_blank">
+        <img src="./assets/img/Call.png" alt="" style="width:50px;  height:50px;" ;>
+    </a>
+
+</footer>
+
+<!-- ===== NABHAS SOLAR FOOTER END ===== -->

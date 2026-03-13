@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -436,40 +437,6 @@
 
 
 
-<!-- HERO -->
-<section class="solar-panels-hero">
-  <div class="container">
-    <div class="row align-items-center gy-4">
-      <div class="col-lg-7">
-        <div class="solar-panels-hero-badge"><i class="fas fa-map-marked-alt me-2"></i>Service Network</div>
-        <h1 class="solar-panels-hero-title">Our Network Across<br><span>Andhra Pradesh</span></h1>
-        <p class="solar-panels-hero-sub">PM Surya Ghar &amp; Commercial Projects — Serving East &amp; West Godavari Districts</p>
-      </div>
-      <div class="col-lg-5">
-        <div class="row g-3">
-          <div class="col-4">
-            <div class="solar-panels-hero-stat">
-              <div class="solar-panels-hero-stat-num">9+</div>
-              <div class="solar-panels-hero-stat-label">Locations</div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="solar-panels-hero-stat">
-              <div class="solar-panels-hero-stat-num">2</div>
-              <div class="solar-panels-hero-stat-label">Districts</div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="solar-panels-hero-stat">
-              <div class="solar-panels-hero-stat-num">5T</div>
-              <div class="solar-panels-hero-stat-label">CO₂ Daily</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- MAP SECTION -->
 <section class="solar-panels-map-section">
@@ -665,7 +632,7 @@
 </section>
 
 <!-- CONTACT SECTION -->
-<section class="solar-panels-contact-section">
+<!-- <section class="solar-panels-contact-section">
   <div class="container">
     <div class="text-center mb-5">
       <div class="solar-panels-section-eyebrow"><i class="fas fa-paper-plane me-1"></i>Reach Out</div>
@@ -712,7 +679,7 @@
       </div>
     </div>
 
-    <!-- CTA -->
+   
     <div class="solar-panels-cta">
       <h3 class="solar-panels-cta-title">Ready to Go Solar in Your Area?</h3>
       <p class="solar-panels-cta-sub">Contact us today for a FREE site survey &amp; customized solar proposal</p>
@@ -726,9 +693,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 
-</body>
-</html>
+<?php include 'footer.php' ; ?>

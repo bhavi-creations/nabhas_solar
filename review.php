@@ -1,4 +1,7 @@
 <?php include 'navbar.php'; ?>
+
+<img src="./assets/img/3.png" alt="" class="img-fluid">
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -244,6 +247,4 @@
     render(false);
   </script>
 
-</body>
-
-</html>
+<?php include 'footer.php' ; ?>

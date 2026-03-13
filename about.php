@@ -1,6 +1,6 @@
 <?php include 'navbar.php'; ?>
 
-
+<img src="./assets/img/1.png" alt="" class="img-fluid">
 
   <!-- ═══════════════════════════════════════════════════════════
      ABOUT US SECTION
@@ -13,7 +13,7 @@
         <div class="section-tag"><i class="bi bi-sun-fill"></i> About Nabhas Solar</div>
         <h2 class="section-title">Innovating the Future of <span>Renewable Energy</span></h2>
         <div class="accent-line mx-auto"></div>
-        <p class="mx-auto" style="max-width:640px;color:#6C757D;font-size:1.03rem;line-height:1.8;">An innovative renewable energy company dedicated to delivering sustainable solar solutions that empower communities, businesses and industries to transition toward clean energy.</p>
+        <p class="mx-auto" style="max-width:640px;color:#0B1F3A;font-size:1.03rem;line-height:1.8;">An innovative renewable energy company dedicated to delivering sustainable solar solutions that empower communities, businesses and industries to transition toward clean energy.</p>
       </div>
 
       <!-- Two-column layout -->
@@ -264,8 +264,13 @@
     </div>
   </section>
 
+
+
+  <!-- rot section  -->
+   <?php include 'roi.php' ; ?>
+
   <!-- Bootstrap 5 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
   <script>
     /* Fade-up on scroll */
     const obs = new IntersectionObserver((entries) => {
@@ -280,9 +285,6 @@
     });
     document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
   </script>
-</body>
-
-</html>
 
 
 

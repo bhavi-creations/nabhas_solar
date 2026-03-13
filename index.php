@@ -2,7 +2,6 @@
 
 
 
-
 <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
 <?php include 'navbar.php'; ?>
 
@@ -231,7 +230,7 @@
       <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
         <a href="">
           <div class="project-card">
-            <div class="project-bg"> <img src="./assets/img/adani.png" alt="" class="img-fluid"> </div>
+            <div class="project-bg"> <img src="./assets/img/solar_1.png" alt="" class="img-fluid"> </div>
             <!-- <div class="project-bg">☀️</div> -->
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,122,74,.4),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
@@ -247,7 +246,8 @@
       <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
         <a href="">
           <div class="project-card">
-            <div class="project-bg" style="font-size:4rem;">🏭</div>
+            <div class="project-bg" style="font-size:4rem;"><img src="./assets/img/solar_2.png" alt=""></div>
+            <!-- <div class="project-bg" style="font-size:4rem;">🏭</div> -->
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(11,31,58,.5),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
               <!-- <div class="project-tag">Commercial</div> -->
@@ -260,7 +260,8 @@
       <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
         <a href="">
           <div class="project-card">
-            <div class="project-bg" style="font-size:4rem;">🏫</div>
+            <div class="project-bg" style="font-size:4rem;"><img src="./assets/img/solar_3.png" alt="" class="img-fluid"></div>
+            <!-- <div class="project-bg" style="font-size:4rem;">🏫</div> -->
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,168,101,.3),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
               <!-- <div class="project-tag">Educational</div> -->
@@ -506,9 +507,10 @@
     <div class="text-center mb-5">
       <div class=" d-inline-block mb-2">
         <!-- <i class="bi bi-envelope-fill me-1"></i> Our Partners -->
-      </div><div class="section-tag"><i class="bi bi-envelope-fill me-1"></i>Our Brands</div>
+      </div>
+      <div class="section-tag"><i class="bi bi-envelope-fill me-1"></i>Our Brands</div>
       <!-- <h2 class="solar_wire-main-title">Trusted by Industry Leaders</h2> -->
-               <h2 class="section-title-section">Cables <span>(AC & DC)</span></h2>
+      <h2 class="section-title-section">Cables <span>(AC & DC)</span></h2>
 
       <!-- <p class="solar_wire-subtitle text-muted">
         Memu quality and reliability kosam top-tier brands tho matrame work chestham.
@@ -763,7 +765,7 @@
 
 
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
-<footer>
+<!-- <footer>
   <div class="container">
     <div class="row g-5">
       <div class="col-lg-4">
@@ -793,14 +795,14 @@
         <a href="#services" class="footer-link">Consultation</a>
         <a href="#services" class="footer-link">Battery Storage</a>
       </div>
-      <!-- <div class="col-6 col-lg-2">
+       <div class="col-6 col-lg-2">
           <div class="footer-title">Products</div>
           <a href="#products" class="footer-link">Solar Panels</a>
           <a href="#products" class="footer-link">Inverters</a>
           <a href="#products" class="footer-link">Batteries</a>
           <a href="#products" class="footer-link">Monitoring</a>
           <a href="#products" class="footer-link">Accessories</a>
-        </div> -->
+        </div> 
       <div class="col-6 col-lg-2">
         <div class="footer-title">Legal</div>
         <a href="#" class="footer-link">Privacy Policy</a>
@@ -818,7 +820,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <!-- Back to Top -->
 <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
@@ -886,6 +888,4 @@
     });
   });
 </script>
-</body>
-
-</html>
+<?php include 'footer.php'; ?>

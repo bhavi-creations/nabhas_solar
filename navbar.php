@@ -188,10 +188,12 @@
                                         <!-- <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li> -->
                                         <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li>
                                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                                                          <li>  <a href="tel:+918341950894" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> 8341950894</a>
+</li>
                                         <!-- <li class="nav-item "><a class="nav-link appointment_section" href="appointment.php">Appointment</a> -->
                                         </li>
 
-                                        <button>
+                                        <!-- <button>
 
 
 
@@ -201,7 +203,7 @@
                                                                 <i class="bi bi-telephone-fill"></i> <span>+91 8341950894</span>
                                                         </a>
                                                 </li>
-                                        </button>
+                                        </button> -->
                                 </ul>
                         </div>
                 </div>

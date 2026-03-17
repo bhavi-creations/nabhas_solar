@@ -87,7 +87,7 @@
               <div class="gauge-bar">
                 <div class="gauge-fill"></div>
               </div>
-              <span class="gauge-val">72%</span>
+              <span class="gauge-val">100%</span>
             </div>
             <!-- <div class="mt-3 d-flex justify-content-between" style="font-size:.78rem;color:rgba(255,255,255,.5);">
                 <span><i class="bi bi-cloud-sun me-1" style="color:var(--sun);"></i>Sunny Conditions</span>
@@ -708,7 +708,7 @@
 
         <div class="map-placeholder mt-2">
           <i class="bi bi-map-fill"></i>
-          <p><strong>SolarVolt HQ</strong></p>
+          <p><strong>Nabhas Solar+ </strong></p>
           <p style="font-size:.82rem;">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</p>
           <a href="https://maps.app.goo.gl/eM3PycEEhmCu91YV9" target="_blank" class="btn-leaf" style="font-size:.82rem;padding:8px 20px;">Open in Maps</a>
         </div>

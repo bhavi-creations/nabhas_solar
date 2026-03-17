@@ -2020,6 +2020,21 @@ footer {
     backdrop-filter: blur(4px);
 }
 
+.sister_section {
+        /* background: linear-gradient(135deg, rgb(245, 197, 24) 0%, rgb(26, 122, 74) 100%); */
+        background-color: #0B1F3A;
+    border: 1px solid rgba(245, 197, 24, .2);
+    border-radius: var(--radius);
+    padding: 36px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    backdrop-filter: blur(4px);
+}
+
 .cta-headline {
     font-family: var(--font-head);
     font-size: 1.4rem;
@@ -2102,6 +2117,10 @@ footer {
     }
 
     .services-cta {
+        text-align: center;
+        justify-content: center;
+    }
+    .sister_section{
         text-align: center;
         justify-content: center;
     }
@@ -3842,4 +3861,10 @@ h5 {
     color: #ffffff;
     transform: translateY(-2px);
 }
+
+
+
+
+/* sister company  */
+
 

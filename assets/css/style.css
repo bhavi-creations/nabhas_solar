@@ -2021,8 +2021,8 @@ footer {
 }
 
 .sister_section {
-        /* background: linear-gradient(135deg, rgb(245, 197, 24) 0%, rgb(26, 122, 74) 100%); */
-        background-color: #0B1F3A;
+    /* background: linear-gradient(135deg, rgb(245, 197, 24) 0%, rgb(26, 122, 74) 100%); */
+    background-color: #0B1F3A;
     border: 1px solid rgba(245, 197, 24, .2);
     border-radius: var(--radius);
     padding: 36px 40px;
@@ -2120,7 +2120,8 @@ footer {
         text-align: center;
         justify-content: center;
     }
-    .sister_section{
+
+    .sister_section {
         text-align: center;
         justify-content: center;
     }
@@ -3600,6 +3601,17 @@ h5 {
     text-align: center;
 }
 
+@media (max-width:768px) {
+    .solar-panels-map-center {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        text-align: center;
+    }
+}
+
 .solar-panels-map-center-circle {
     width: 100px;
     height: 100px;
@@ -3868,3 +3880,91 @@ h5 {
 /* sister company  */
 
 
+/* active service zone  */
+/* Base Section Styling */
+.active_zone-section {
+    background-color: #f4f7f9;
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Heading Styling */
+.active_zone-title {
+    color: #0B1F3A;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.active_zone-subtitle {
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+/* Card Component */
+.active_zone-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Hover Effects */
+.active_zone-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(11, 31, 58, 0.15);
+}
+
+.active_zone-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #0B1F3A;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.active_zone-card:hover::before {
+    height: 100%;
+}
+
+.active_zone-card:hover .active_zone-name {
+    color: #ffffff;
+}
+
+/* Icon and Text */
+.active_zone-icon {
+    font-size: 2.2rem;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.active_zone-name {
+    color: #0B1F3A;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    transition: color 0.3s ease;
+}
+
+/* Yellow Accent Line */
+.active_zone-underline {
+    width: 50px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}

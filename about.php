@@ -168,8 +168,7 @@
 <div class="container">
   <div class=" sister_section services-cta fade-up fd2">
       <div>
-        <div class="cta-headline"> Nabhas Solar is a <strong>sister comapny</strong> of nabas construction</div>
-        <!-- <div class="cta-sub">Get a free site assessment and customized energy proposal from our experts — no obligation.</div> -->
+        <div class="cta-headline "> Nabhas Solar is a <strong>sister comapny</strong> of Nabhas construction</div>
       </div>
     
     </div>

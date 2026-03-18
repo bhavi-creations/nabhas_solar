@@ -23,7 +23,7 @@
 
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
+        <link href="./assets/img/favicons.png" rel="icon">
 
         <!-- image slider  -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -188,8 +188,8 @@
                                         <!-- <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li> -->
                                         <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li>
                                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                                                          <li>  <a href="tel:+918341950894" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> 8341950894</a>
-</li>
+                                        <li> <a href="tel:+918341950894" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> 8341950894</a>
+                                        </li>
                                         <!-- <li class="nav-item "><a class="nav-link appointment_section" href="appointment.php">Appointment</a> -->
                                         </li>
 

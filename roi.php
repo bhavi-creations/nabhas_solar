@@ -314,16 +314,17 @@
       z-index: 5;
       text-align: center;
     }
+
     @media (max-width:768px) {
-    .solar-panels-map-center {
+      .solar-panels-map-center {
         position: absolute;
         top: 15%;
         left: 30%;
         transform: translate(-50%, -50%);
         z-index: 5;
         text-align: center;
+      }
     }
-}
 
     .solar-panels-map-center-circle {
       width: 100px;
@@ -592,93 +593,184 @@
 
 
 
-    
-/* active service zone  */
- /* Base Section Styling */
-  .active_zone-section {
-    background-color: #f4f7f9;
-    padding: 80px 0;
-    font-family: 'Poppins', sans-serif;
-  }
 
-  /* Main Heading Styling */
-  .active_zone-title {
-    /* color: #0B1F3A; */
-    color: #0B1F3A;
-    font-weight: 800;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
+    /* active service zone  */
+    /* Base Section Styling */
+    .active_zone-section {
+      background-color: #f4f7f9;
+      padding: 80px 0;
+      font-family: 'Poppins', sans-serif;
+    }
 
-  .active_zone-subtitle {
-    color: #555;
-    margin-bottom: 50px;
-    font-size: 1.1rem;
-  }
+    /* Main Heading Styling */
+    .active_zone-title {
+      /* color: #0B1F3A; */
+      color: #0B1F3A;
+      font-weight: 800;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-  /* Card Component */
-  .active_zone-card {
-    background: #ffffff;
-    border-radius: 16px;
-    padding: 30px 20px;
-    text-align: center;
-    border: none;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-  }
+    .active_zone-subtitle {
+      color: #555;
+      margin-bottom: 50px;
+      font-size: 1.1rem;
+    }
 
-  /* Hover Effects */
-  .active_zone-card:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 15px 30px rgba(11, 31, 58, 0.15);
-  }
+    /* Card Component */
+    .active_zone-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      border: none;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
 
-  .active_zone-card::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 0;
-    background: #0B1F3A;
-    transition: all 0.4s ease;
-    z-index: -1;
-  }
+    /* Hover Effects */
+    .active_zone-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 15px 30px rgba(11, 31, 58, 0.15);
+    }
 
-  .active_zone-card:hover::before {
-    height: 100%;
-  }
+    .active_zone-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background: #0B1F3A;
+      transition: all 0.4s ease;
+      z-index: -1;
+    }
 
-  .active_zone-card:hover .active_zone-name {
-    color: #ffffff;
-  }
+    .active_zone-card:hover::before {
+      height: 100%;
+    }
 
-  /* Icon and Text */
-  .active_zone-icon {
-    font-size: 2.2rem;
-    color: #ffcc00;
-    margin-bottom: 15px;
-    display: block;
-  }
+    .active_zone-card:hover .active_zone-name {
+      color: #ffffff;
+    }
 
-  .active_zone-name {
-    color: #0B1F3A;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin-bottom: 0;
-    transition: color 0.3s ease;
-  }
+    /* Icon and Text */
+    .active_zone-icon {
+      font-size: 2.2rem;
+      color: #ffcc00;
+      margin-bottom: 15px;
+      display: block;
+    }
 
-  /* Yellow Accent Line */
-  .active_zone-underline {
-    width: 50px;
-    height: 4px;
-    background: #ffcc00;
-    margin: 0 auto 40px;
-    border-radius: 2px;
-  }
+    .active_zone-name {
+      color: #0B1F3A;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      transition: color 0.3s ease;
+    }
+
+    /* Yellow Accent Line */
+    .active_zone-underline {
+      width: 50px;
+      height: 4px;
+      background: #ffcc00;
+      margin: 0 auto 40px;
+      border-radius: 2px;
+    }
+
+    /* new  plaves names and its  stylings  */
+    /* Meeru ichina patha styles ni alaage unchandi... */
+
+    /* --- ADDED NEW PIN POSITIONS --- */
+    .solar-panels-p-prathipadu {
+      top: 18%;
+      right: 30%;
+      animation-delay: 0.5s;
+    }
+
+    .solar-panels-p-jagampeta {
+      top: 26%;
+      left: 35%;
+      animation-delay: 0.55s;
+    }
+
+    .solar-panels-p-pithapuram {
+      top: 32%;
+      right: 15%;
+      animation-delay: 0.6s;
+    }
+
+    .solar-panels-p-pedapuram {
+      top: 28%;
+      right: 25%;
+      animation-delay: 0.65s;
+    }
+
+    .solar-panels-p-annavaram {
+      top: 15%;
+      right: 12%;
+      animation-delay: 0.7s;
+    }
+
+    .solar-panels-p-yanam {
+      top: 52%;
+      right: 10%;
+      animation-delay: 0.75s;
+    }
+
+    /* --- MOBILE RESPONSIVE LOGIC --- */
+
+    @media (max-width: 768px) {
+
+      /* Map center position for mobile */
+      .solar-panels-map-center {
+        top: 20%;
+        left: 20%;
+      }
+
+      /* Hide city tags by default on mobile */
+      .solar-panels-pin-tag {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(5px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+        /* Tag meeda click avvakunda */
+      }
+
+      /* Show tag only when the parent pin is clicked/hovered */
+      .solar-panels-pin:active .solar-panels-pin-tag,
+      .solar-panels-pin:hover .solar-panels-pin-tag {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      /* Make dots slightly bigger for easier touch on mobile */
+      .solar-panels-pin-dot {
+        width: 14px;
+        height: 14px;
+      }
+
+      /* Visual adjust to ensure tags don't overlap too much */
+      .solar-panels-pin-tag {
+        font-size: 0.6rem;
+        padding: 2px 6px;
+      }
+    }
+
+    /* Hover effect on Desktop (already exists, but reinforcing) */
+    .solar-panels-pin:hover .solar-panels-pin-tag {
+      background: #00aaff;
+      color: #ffffff;
+      z-index: 10;
+    }
   </style>
 </head>
 
@@ -699,14 +791,14 @@
       <div class="solar-panels-map-wrap">
 
         <!-- MAP VISUAL -->
-        <div class="solar-panels-map-visual">
-          <!-- AP shape SVG -->
+        <!-- <div class="solar-panels-map-visual">
+        
           <svg class="solar-panels-ap-svg" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid meet">
             <path d="M120,40 L200,20 L280,40 L320,100 L350,180 L360,260 L340,340 L300,400 L260,460 L220,480 L180,460 L140,420 L100,360 L60,300 L50,220 L60,140 Z"
               fill="#003087" stroke="#0056b3" stroke-width="2" fill-opacity="0.5" />
           </svg>
 
-          <!-- PINS -->
+          
           <div class="solar-panels-pin solar-panels-p-eleswaram">
             <div class="solar-panels-pin-pulse"></div>
             <div class="solar-panels-pin-dot"></div>
@@ -753,7 +845,98 @@
             <div class="solar-panels-pin-tag">Razole</div>
           </div>
 
-          <!-- CENTER BADGE -->
+    
+          <div class="solar-panels-map-center">
+            <div class="solar-panels-map-center-circle">
+              <i class="fas fa-solar-panel"></i>
+              <span>NABHAS<br>SOLAR</span>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="solar-panels-map-visual">
+          <svg class="solar-panels-ap-svg" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid meet">
+            <path d="M120,40 L200,20 L280,40 L320,100 L350,180 L360,260 L340,340 L300,400 L260,460 L220,480 L180,460 L140,420 L100,360 L60,300 L50,220 L60,140 Z"
+              fill="#003087" stroke="#0056b3" stroke-width="2" fill-opacity="0.5" />
+          </svg>
+
+          <div class="solar-panels-pin solar-panels-p-eleswaram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Eleswaram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-tuni">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Tuni</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-kakinada">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Kakinada</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-rajahmundry">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Rajahmundry</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-gokavaram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Gokavaram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-ravulapalem">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Ravulapalem</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-ramachandrapuram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Ramachandrapuram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-amalapuram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Amalapuram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-razole">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Razole</div>
+          </div>
+
+          <div class="solar-panels-pin solar-panels-p-prathipadu">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Prathipadu</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-jagampeta">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Jagampeta</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-pithapuram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Pithapuram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-pedapuram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Pedapuram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-annavaram">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Annavaram</div>
+          </div>
+          <div class="solar-panels-pin solar-panels-p-yanam">
+            <div class="solar-panels-pin-pulse"></div>
+            <div class="solar-panels-pin-dot"></div>
+            <div class="solar-panels-pin-tag">Yanam</div>
+          </div>
+
           <div class="solar-panels-map-center">
             <div class="solar-panels-map-center-circle">
               <i class="fas fa-solar-panel"></i>
@@ -761,6 +944,7 @@
             </div>
           </div>
         </div>
+
 
         <!-- LOCATION CARDS -->
         <div class="mt-5">
@@ -874,6 +1058,77 @@
               </div>
             </div>
 
+            <!-- newly add  -->
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Prathipadu</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Jagampeta</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Pithapuram</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Pedapuram</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Annavaram</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-sm-6">
+              <div class="solar-panels-loc-card">
+                <div class="solar-panels-loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <div class="solar-panels-loc-name">Yanam</div>
+                  <div class="solar-panels-loc-type">PM Surya Ghar &amp; Commercial</div>
+                </div>
+                <!-- <div class="solar-panels-loc-badge">Active</div> -->
+              </div>
+            </div>
+
+
+
+
+
+
           </div>
         </div>
       </div>
@@ -945,12 +1200,11 @@
 </section> -->
 
 
-  <section class="active_zone-section">
+  <!-- <section class="active_zone-section">
     <div class="container text-center">
 
       <h2 class="active_zone-title">Active service location (active zones)</h2>
       <div class="active_zone-underline"></div>
-      <!-- <p class="active_zone-subtitle">Nabhas Solar is delivering clean energy across these major locations</p> -->
 
       <div class="row g-4 justify-content-center">
         <div class="col-6 col-md-4 col-lg-2">
@@ -997,7 +1251,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <?php include 'footer.php'; ?>

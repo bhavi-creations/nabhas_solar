@@ -8,8 +8,10 @@
     /* ---- FOOTER WRAPPER ---- */
     .nabhas_footer_section {
         position: relative;
-        background: linear-gradient(160deg, #020b18 0%, #04183a 40%, #061e4a 70%, #030e22 100%);
-        color: #ffffff;
+        /* background: linear-gradient(160deg, #020b18 0%, #04183a 40%, #061e4a 70%, #030e22 100%); */
+        background-color: white ;
+        /* color: #ffffff; */
+        color:#0b1f3a;
         padding: 80px 0 0;
         font-family: 'Nunito', sans-serif;
         overflow: hidden;
@@ -52,7 +54,7 @@
 
     /* ---- LOGO ---- */
     .nabhas_footer_logo {
-        width:250px;
+        width: 250px;
         margin-bottom: 18px;
         filter: brightness(1.15);
         background-color: white;
@@ -64,9 +66,10 @@
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        background: rgba(0, 170, 255, 0.12);
+        /* background: rgba(0, 170, 255, 0.12); */
+        background-color: #0b1f3a;
         border: 1px solid rgba(0, 170, 255, 0.3);
-        color: #5dcfff;
+        color: #ffffff;
         font-size: 11px;
         font-weight: 600;
         letter-spacing: 1.2px;
@@ -84,7 +87,8 @@
     /* ---- FOOTER TEXT ---- */
     .nabhas_footer_text {
         font-size: 13.5px;
-        color: #9db4d8;
+        color: #000000;
+        /* color: #9db4d8; */
         line-height: 1.8;
         margin-bottom: 20px;
     }
@@ -145,7 +149,7 @@
         font-weight: 800;
         font-size: 17px;
         margin-bottom: 26px;
-        color: #ffffff;
+        color: #0b1f3a;
         letter-spacing: 0.3px;
         position: relative;
         padding-bottom: 12px;
@@ -174,7 +178,8 @@
     }
 
     .nabhas_footer_links a {
-        color: #9db4d8;
+        color: #000000;
+        /* color: #9db4d8; */
         text-decoration: none;
         font-size: 13.5px;
         transition: color 0.3s, padding-left 0.3s;
@@ -194,7 +199,7 @@
     }
 
     .nabhas_footer_links a:hover {
-        color: #ffffff;
+        /* color: #ffffff; */
         padding-left: 4px;
     }
 
@@ -223,7 +228,8 @@
         width: 34px;
         height: 34px;
         border-radius: 9px;
-        background: rgba(0, 170, 255, 0.12);
+        /* background: rgba(0, 170, 255, 0.12); */
+        background-color: #0b1f3a;
         border: 1px solid rgba(0, 170, 255, 0.25);
         display: flex;
         align-items: center;
@@ -233,13 +239,14 @@
     }
 
     .nabhas_contact_icon i {
-        color: #00aaff;
+        color: #ffffff;
         font-size: 13px;
     }
 
     .nabhas_contact_text strong {
         display: block;
-        color: #c8daf2;
+        color: #0b1f3a;
+        /* color: #c8daf2; */
         font-size: 11px;
         letter-spacing: 0.8px;
         text-transform: uppercase;
@@ -248,7 +255,8 @@
     }
 
     .nabhas_contact_text span {
-        color: #9db4d8;
+        color: #000000;
+        /* color: #9db4d8; */
         font-size: 13.5px;
         line-height: 1.6;
     }
@@ -551,6 +559,13 @@
             text-align: center;
             z-index: 99999;
         }
+
+        .broucher_link {
+            position: fixed;
+            bottom: 230px;
+            right: 20px;
+             width: 50px;
+            height: 50px;        }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=918341950894" style="color: #fff;" class="whatsapp-link"
@@ -558,7 +573,15 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <div class="broucher_link ">
+        <a href="./assets/img/Nabhas Solar Broucher.pdf" download="Nabhas_Solar_Brochure" class="text-decoration-none">
+            <div class="image-container">
+                <img src="./assets/img/favicons.png" alt="Brochure" class="img-fluid">
 
+
+            </div>
+        </a>
+    </div>
 
 
 

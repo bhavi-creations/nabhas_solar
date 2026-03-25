@@ -29,8 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('manimalladi05@gmail.com', 'Krishnadentalcure.com' ); // Your Gmail email and name
-        $mail->addAddress('manimalladi05@gmail.com', 'Krishnadentalcure.com'); // Recipient's email and name
+        $mail->setFrom('manimalladi05@gmail.com', 'Nabhas Solar' ); // Your Gmail email and name
+        $mail->addAddress('manimalladi05@gmail.com', 'Nabhas Solar'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);

@@ -185,10 +185,11 @@
                     </li> -->
                                         <!-- <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li> -->
                                         <li class="nav-item"><a class="nav-link" href="service.php">Service</a></li>
-                                        <!-- <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li> -->
-                                        <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="gallery.php">Our Projects</a></li>
+                                        <!-- <li class="nav-item"><a class="nav-link" href="review.php">Testimonials</a></li> -->
                                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                                        <li> <a href="tel:+918341950894" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> 8341950894</a>
+                                        <!-- <li> <a href="tel:+918341950894" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> 8341950894</a> -->
+                                        <li> <a href="get_in_touch.php" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> Get In Touch</a>
                                         </li>
                                         <!-- <li class="nav-item "><a class="nav-link appointment_section" href="appointment.php">Appointment</a> -->
                                         </li>

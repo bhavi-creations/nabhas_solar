@@ -1,6 +1,22 @@
 <?php include 'navbar.php'; ?>
 
-<img src="./assets/img/1.png" alt="" class="img-fluid">
+<!-- <img src="./assets/img/1.png" alt="" class="img-fluid"> -->
+ <section class="about-new-section-wrapper">
+    <div class="about-new-section-overlay">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100">
+                <div class="col-12 text-center text-white">
+                    <h1 class="about-new-section-title fw-bold">About Us</h1>
+                    <div class="about-new-section-divider mx-auto"></div>
+                    <!-- <p class="about-new-section-description fs-5 mt-3">
+                        Crafting Excellence Through Unique IT Services — <br>
+                        Transforming Ideas Into Powerful Digital Solutions Since 2018
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- ═══════════════════════════════════════════════════════════
      ABOUT US SECTION
@@ -20,13 +36,13 @@
     <div class="row align-items-center g-5 mb-5">
 
       <!-- LEFT: Visual card -->
-      <div class="col-lg-5 fade-up fd1">
+      <!-- <div class="col-lg-5 fade-up fd1">
         <div class="about-visual-wrap">
           <div class="about-main-card">
-            <!-- Sun animation -->
+           
             <div class="sun-core mx-auto"></div>
 
-            <!-- Panel grid -->
+            
             <div class="panel-grid">
               <div class="panel-cell"></div>
               <div class="panel-cell"></div>
@@ -45,7 +61,7 @@
               <div class="panel-cell"></div>
             </div>
 
-            <!-- Energy meters -->
+            
             <div class="energy-bar-wrap">
               <div class="energy-label"><span>Solar Output</span><span style="color:#28A865;">82%</span></div>
               <div class="energy-bar">
@@ -61,14 +77,14 @@
               </div>
             </div>
 
-            <!-- Bottom label -->
+           
             <div class="d-flex justify-content-between align-items-center mt-3" style="font-size:.75rem;color:rgba(255,255,255,.45);">
               <span><i class="bi bi-activity me-1" style="color:#F5C518;"></i>Live System Monitor</span>
               <span style="color:#4ade80;"><i class="bi bi-circle-fill me-1" style="font-size:.5rem;"></i>All Systems Normal</span>
             </div>
           </div>
 
-          <!-- Floating chips -->
+          
           <div class="float-chip chip-1">
             <div class="fc-icon" style="background:#d4f0e3;color:#1A7A4A;"><i class="bi bi-tree-fill"></i></div>
             <div>
@@ -84,10 +100,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- RIGHT: Content -->
-      <div class="col-lg-7 fade-up fd2">
+     
+      <div class="col-lg-12 fade-up fd2">
 
         <!-- Mission -->
         <div class="mission-card">
@@ -211,17 +227,16 @@
 <!-- ═══════════════════════════════════════════════════════════
      WHAT WE DO / SERVICES SECTION
 ════════════════════════════════════════════════════════════ -->
-<section id="nabhas-services">
+<!-- <section id="nabhas-services">
   <div class="container position-relative" style="z-index:1;">
 
-    <!-- Header -->
+   
     <div class="text-center mb-4 fade-up">
       <div class="section-tag"><i class="bi bi-grid-fill"></i> What We Do</div>
       <h2 class="section-title">Our <span>Core Services</span></h2>
       <div class="accent-line mx-auto"></div>
     </div>
 
-    <!-- Intro banner -->
     <div class="services-intro-banner fade-up fd1">
       <div class="sib-icon"><i class="bi bi-brightness-high-fill"></i></div>
       <p class="sib-text mb-0">
@@ -229,10 +244,10 @@
       </p>
     </div>
 
-    <!-- Service cards grid -->
+  
     <div class="row g-4">
 
-      <!-- Card 1: Residential -->
+   
       <div class="col-md-6 col-xl-3 fade-up fd1">
         <div class="svc-card">
           <div class="svc-number">01</div>
@@ -247,7 +262,7 @@
         </div>
       </div>
 
-      <!-- Card 2: Commercial & Industrial -->
+      
       <div class="col-md-6 col-xl-3 fade-up fd2">
         <div class="svc-card">
           <div class="svc-number">02</div>
@@ -262,7 +277,7 @@
         </div>
       </div>
 
-      <!-- Card 3: EPC -->
+      
       <div class="col-md-6 col-xl-3 fade-up fd3">
         <div class="svc-card">
           <div class="svc-number">03</div>
@@ -277,7 +292,7 @@
         </div>
       </div>
 
-      <!-- Card 4: Sustainable Innovation -->
+      
       <div class="col-md-6 col-xl-3 fade-up fd4">
         <div class="svc-card">
           <div class="svc-number">04</div>
@@ -293,7 +308,7 @@
       </div>
     </div>
 
-    <!-- Bottom CTA -->
+    
     <div class="services-cta fade-up fd2">
       <div>
         <div class="cta-headline">Ready to Switch to Solar?</div>
@@ -305,7 +320,7 @@
     </div>
 
   </div>
-</section>
+</section> -->
 
 
 

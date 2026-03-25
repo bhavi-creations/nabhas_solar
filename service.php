@@ -1,5 +1,25 @@
 <?php include 'navbar.php'; ?>
-<img src="./assets/img/2.png" alt="" class="img-fluid">
+<!-- <img src="./assets/img/2.png" alt="" class="img-fluid"> -->
+
+<section class="service-new-section-wrapper">
+    <div class="about-new-section-overlay">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100">
+                <div class="col-12 text-center text-white">
+                    <h1 class="about-new-section-title fw-bold">Service</h1>
+                    <div class="about-new-section-divider mx-auto"></div>
+                    <!-- <p class="about-new-section-description fs-5 mt-3">
+                        Crafting Excellence Through Unique IT Services — <br>
+                        Transforming Ideas Into Powerful Digital Solutions Since 2018
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 
 
@@ -247,7 +267,7 @@
                 <div class="d-flex flex-wrap gap-3">
                     <!-- <a href="#" class="solar-service-btn-cta-white"><i class="bi bi-lightning-charge-fill"></i> Get Free Quote</a> -->
                     <a href="contact.php" class="solar-service-btn-cta-outline"><i class="bi bi-telephone-fill"></i> Call Us Now</a>
-                    
+
                 </div>
             </div>
 
@@ -270,4 +290,4 @@
         });
         document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
     </script>
-<?php include 'footer.php' ; ?>
+    <?php include 'footer.php'; ?>

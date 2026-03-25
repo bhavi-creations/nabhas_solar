@@ -5,8 +5,89 @@
 <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
 <?php include 'navbar.php'; ?>
 
+<div class="section team-area section-padding">
+  <div class="container">
+    <div class="team-wrapper">
+      <!-- Team Title Start -->
+      <!-- <div class="team-title-wrapper">
+          
+            <div class="">
+              <div class="section-title">
+                
+                <p class="title text-center">Our Brands</p>
+                <h3 class="sub-title text-center">Solar panels (540wp to 620wp) with bifacial & topon series <br> <strong>@30 year Warranty</strong></h3>
+                
+              </div>
+            </div>
 
-<img src="./assets/img/slider_1.png" alt="" class="img-fluid">
+           
+       
+        </div> -->
+
+
+
+
+      <!-- Team Content Wrapper Start -->
+      <div class="team-content-wrapper">
+        <div class="team-content-wrapper">
+
+          <div class="custom-slide-container swiper">
+            <div class="custom-slide-content   ">
+              <div class="custom-card-wrapper swiper-wrapper py-5">
+
+                <div class="custom-card  custom-card-vid custom_card_bg_three swiper-slide">
+
+                  <video class="img-fluid " autoplay muted loop playsinline controls>
+                    <source src="./assets/img/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="custom-card custom-card-vid custom_card_bg_three swiper-slide">
+
+                  <video class="img-fluid " autoplay muted loop playsinline controls>
+                    <source src="./assets/img/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="custom-card custom-card-vid custom_card_bg_three swiper-slide">
+
+                  <video class="img-fluid " autoplay muted loop playsinline controls>
+                    <source src="./assets/img/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="custom-card  custom-card-vid custom_card_bg_three swiper-slide">
+
+                  <video class="img-fluid" autoplay muted loop playsinline controls>
+                    <source src="./assets/img/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Team Content Wrapper End -->
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <img src="./assets/img/slider_1.png" alt="" class="img-fluid"> -->
 
 <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
 <section id="hero">
@@ -25,7 +106,7 @@
 
         <div class="hero-badge"><i class="bi bi-sun-fill me-1"></i> Trusted Solar Energy Partner</div>
 
-        <h1 class="hero-title">Empowering Communities<em> with Clean</em> Solar Energy</h1>
+        <h1 class="hero-title">No more fear <em>of electricity bills.</em> let's trust solar energy</h1>
 
         <p class="hero-subtitle">Every day we reduce 5 tons of CO₂ for a healthy environment. Join the transition with over 400+ successful installations across Andhra Pradesh.
 
@@ -37,7 +118,7 @@
 
 
         <div class="d-flex flex-wrap gap-3">
-          <a href="#contact" class="btn-sun"><i class="bi bi-lightning-fill me-2"></i>Get Free Estimate</a>
+          <a href="get_in_touch.php" class="btn-sun"><i class="bi bi-lightning-fill me-2"></i>Get a Free Quote</a>
           <a href="service.php" class="btn-outline-white"><i class="bi bi-play-circle me-2"></i>Our Services</a>
         </div>
         <div class="hero-stats">
@@ -57,13 +138,10 @@
       </div>
 
       <div class="col-lg-6 hero-visual">
-        <div style="position:relative; max-width:440px; margin: 0 auto;">
+        <!-- <div style="position:relative; max-width:440px; margin: 0 auto;">
           <div class="solar-card">
             <div class="d-flex justify-content-between align-items-center mb-3">
-              <!-- <div>
-                  <div style="font-size:.75rem;color:rgba(255,255,255,.5);letter-spacing:1px;text-transform:uppercase;">Live Output</div>
-                  <div style="font-family:var(--font-head);font-size:1.8rem;font-weight:800;color:var(--white);">24.8 <span style="font-size:1rem;color:var(--sun);">kW</span></div>
-                </div> -->
+             
               <div style="width:48px;height:48px;border-radius:12px;background:var(--sun);display:flex;align-items:center;justify-content:center;">
                 <i class="bi bi-sun-fill" style="font-size:1.4rem;color:var(--navy);"></i>
               </div>
@@ -89,27 +167,13 @@
               </div>
               <span class="gauge-val">100%</span>
             </div>
-            <!-- <div class="mt-3 d-flex justify-content-between" style="font-size:.78rem;color:rgba(255,255,255,.5);">
-                <span><i class="bi bi-cloud-sun me-1" style="color:var(--sun);"></i>Sunny Conditions</span>
-                <span><i class="bi bi-arrow-up me-1" style="color:#4ade80;"></i>$12.40 saved today</span>
-              </div> -->
+            
           </div>
 
-          <!-- <div class="badge-float bf-1">
-              <div class="icon" style="background:#d4f0e3;color:var(--leaf);"><i class="bi bi-tree-fill"></i></div>
-              <div>
-                <div style="font-size:.68rem;color:var(--gray);font-weight:500;">CO₂ Reduced</div>
-                <div style="color:var(--leaf);">4.2 Tons / yr</div>
-              </div>
-            </div> -->
-          <!-- <div class="badge-float bf-2">
-              <div class="icon" style="background:#fff3cd;color:#856404;"><i class="bi bi-currency-dollar"></i></div>
-              <div>
-                <div style="font-size:.68rem;color:var(--gray);font-weight:500;">Avg Savings</div>
-                <div style="color:var(--navy);">$1,800 / year</div>
-              </div>
-            </div> -->
-        </div>
+         
+        </div> -->
+        <img src="./assets/img/r-3.png" alt="Nabhas Solar" class="img-fluid">
+
       </div>
 
     </div>
@@ -124,18 +188,18 @@
       <div class="col-lg-5 fade-up">
         <div class="about-img-wrap">
           <div class="about-img p-4">
-            <svg class="about-svg" viewBox="0 0 400 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Ground -->
+            <!-- <svg class="about-svg" viewBox="0 0 400 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+              
               <rect x="0" y="280" width="400" height="100" fill="#1a4a2e" rx="6" />
-              <!-- House -->
+              
               <rect x="80" y="160" width="240" height="140" fill="#0d2748" rx="6" />
-              <!-- Roof -->
+              
               <polygon points="60,170 200,80 340,170" fill="#0f3560" />
-              <!-- Solar panels on roof -->
+              
               <rect x="110" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
               <rect x="180" y="102" width="60" height="38" rx="4" fill="#1e3a6e" />
               <rect x="250" y="112" width="60" height="38" rx="4" fill="#1e3a6e" />
-              <!-- Panel shimmer -->
+              
               <rect x="115" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
               <line x1="115" y1="131" x2="165" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
               <line x1="140" y1="116" x2="140" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
@@ -145,35 +209,36 @@
               <rect x="255" y="116" width="50" height="30" rx="3" fill="#162f60" opacity=".7" />
               <line x1="255" y1="131" x2="305" y2="131" stroke="rgba(245,197,24,.3)" stroke-width="1" />
               <line x1="280" y1="116" x2="280" y2="146" stroke="rgba(245,197,24,.3)" stroke-width="1" />
-              <!-- Door -->
+             
               <rect x="170" y="230" width="60" height="70" rx="4" fill="#0a1f3a" />
               <circle cx="222" cy="267" r="4" fill="#F5C518" />
-              <!-- Windows -->
+              
               <rect x="100" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
               <rect x="248" y="195" width="52" height="50" rx="4" fill="#1a4a6e" opacity=".8" />
-              <!-- Sun -->
+             
               <circle cx="340" cy="70" r="32" fill="#F5C518" opacity=".9" />
               <circle cx="340" cy="70" r="22" fill="#F5C518" />
-              <!-- Sun rays -->
+              
               <line x1="340" y1="25" x2="340" y2="10" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
               <line x1="375" y1="35" x2="385" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
               <line x1="385" y1="70" x2="400" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
               <line x1="375" y1="105" x2="385" y2="115" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
               <line x1="305" y1="35" x2="295" y2="25" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
               <line x1="295" y1="70" x2="280" y2="70" stroke="#F5C518" stroke-width="3" stroke-linecap="round" />
-              <!-- Energy beam -->
+             
               <path d="M320 92 L200 130 L220 140 L200 175 L260 130 L240 120 Z" fill="#F5C518" opacity=".25" />
-              <!-- Trees -->
+          
               <ellipse cx="60" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
               <rect x="56" y="275" width="8" height="20" fill="#1a4a2e" />
               <ellipse cx="350" cy="268" rx="28" ry="35" fill="#1A7A4A" opacity=".8" />
               <rect x="346" y="275" width="8" height="20" fill="#1a4a2e" />
-            </svg>
+            </svg> -->
+
+
+            <img src="./assets/img/r-2.png" alt="" class=" d-none d-md-block">
+            <img src="./assets/img/solar img (1).png" alt="" class="img-fluid d-block d-md-none">
           </div>
-          <!-- <div class="about-chip ac-1">
-              <div class="ac-val">15+</div>
-              <div class="ac-lbl">Years in Solar</div>
-            </div> -->
+
           <div class="about-chip ac-2">
             <div class="ac-val">400+</div>
             <div class="ac-lbl">Homes Powered</div>
@@ -183,7 +248,8 @@
 
       <div class="col-lg-7 fade-up fade-up-d2">
         <div class="section-tag"><i class="bi bi-info-circle me-1"></i> About Nabhas Solar</div>
-        <h2 class="section-title">Turning Sunlight into <span>Reliable Electricity</span></h2>
+        <h2 class="section-title">With solar power .<span>say goodbye to current bills</span></h2>
+        <!-- <h2 class="section-title">Turning Sunlight into <span>Reliable Electricity</span></h2> -->
         <p class="text-muted mb-4" style="line-height:1.8;">Nabhas Solar is an innovative renewable energy company dedicated to delivering sustainable solar solutions.
           We empower communities, businesses, and industries to transition toward clean energy with high-quality solar systems
           that promote energy independence.</p>
@@ -209,7 +275,7 @@
             <div class="mi-text">Long-term partnerships built on transparency and reliability.</div>
           </div>
         </div>
-        <a href="about.php" class="btn-leaf">Read More</a>
+        <a href="about.php" class="btn-leaf">No More about us</a>
       </div>
 
     </div>
@@ -218,7 +284,7 @@
 
 
 <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
-<section id="projects">
+<!-- <section id="projects">
   <div class="container">
     <div class="text-center mb-5 fade-up">
       <div class="section-tag" style="background:rgba(245,197,24,.15);color:var(--sun);"><i class="bi bi-lightning-fill me-1"></i> Our Project</div>
@@ -231,14 +297,13 @@
         <a href="">
           <div class="project-card">
             <div class="project-bg"> <img src="./assets/img/solar_1.png" alt="" class="img-fluid"> </div>
-            <!-- <div class="project-bg">☀️</div> -->
+
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,122,74,.4),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
-              <!-- <div class="project-tag">Residential</div> -->
+
               <div class="project-name">Elite Edible Oil and Fuel Pvt. Ltd</div>
               <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>A high-scale industrial installation completed within 45 days. It includes full engineering scope, from site survey to CEIG safety clearances and Bi-Directional Net Metering (APEPDCL), ensuring massive energy savings for the factory.</div>
-              <!--  <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i> <strong>  Specialization:</strong> PM Surya Ghar (Muft Bijli Yojana) lo 1kW nundi 5kW+ varaku systems provide cheyadam.</div>
-              <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i><strong> Key Benefit:</strong> Monthy current bills ₹4,800 nundi ₹200 ki tagginchadam.</div> -->
+
             </div>
           </div>
         </a>
@@ -247,10 +312,8 @@
         <a href="">
           <div class="project-card">
             <div class="project-bg" style="font-size:4rem;"><img src="./assets/img/solar_2.png" alt=""></div>
-            <!-- <div class="project-bg" style="font-size:4rem;">🏭</div> -->
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(11,31,58,.5),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
-              <!-- <div class="project-tag">Commercial</div> -->
               <div class="project-name">Rotary Old Age Home & Deepu Engineering</div>
               <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Customized solar solutions for non-residential spaces. These projects focus on reducing operational costs for offices and social organizations while maintaining a stable and clean power supply.</div>
             </div>
@@ -261,18 +324,16 @@
         <a href="">
           <div class="project-card">
             <div class="project-bg" style="font-size:4rem;"><img src="./assets/img/solar_3.png" alt="" class="img-fluid"></div>
-            <!-- <div class="project-bg" style="font-size:4rem;">🏫</div> -->
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,168,101,.3),rgba(11,31,58,.8));"></div>
             <div class="project-overlay">
-              <!-- <div class="project-tag">Educational</div> -->
               <div class="project-name">PM Surya Ghar (Muft Bijli Yojana)</div>
               <div class="project-kw"><i class="bi bi-lightning-fill me-1" style="color:var(--sun);"></i>Successful rooftop installations across Kakinada, Eluru, and Gorripudi. For example, at Avani Heights, the monthly electricity bill was reduced from ₹4,800 to just ₹200, providing long-term financial freedom to homeowners.</div>
             </div>
           </div>
         </a>
-      </div>
+      </div>  -->
 
-      <!--<div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+<!--<div class="col-md-6 col-lg-4 fade-up fade-up-d1">
           <div class="project-card">
             <div class="project-bg" style="font-size:4rem;">🏪</div>
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,197,24,.15),rgba(11,31,58,.85));"></div>
@@ -307,9 +368,109 @@
         </div> -->
 
 
+<!--   </div>
+  </div>
+   <a href="about.php" class="btn-leaf d-flex jsutif">Read More</a>
+</section>-->
+
+
+
+<div class="container my-5">
+  <div class="solar-service-process-row fade-up">
+    <div class="text-center mb-4">
+      <div class="solar-service-section-label mx-auto"><i class="bi bi-diagram-3-fill"></i> How It Works</div>
+      <h3 class="solar-service-section-heading" style="font-size:1.7rem;">Your Solar Journey in <span>4 Steps</span></h3>
+    </div>
+    <div class="d-flex flex-wrap justify-content-between gap-3">
+      <div class="solar-service-process-step">
+        <div class="solar-service-step-num">1</div>
+        <div>
+          <div class="solar-service-step-title">Consultation</div>
+          <div class="solar-service-step-desc">Site assessment</div>
+        </div>
+      </div>
+      <div class="solar-service-step-connector d-none d-md-block"></div>
+      <div class="solar-service-process-step">
+        <div class="solar-service-step-num">2</div>
+        <div>
+          <div class="solar-service-step-title">Custom Design</div>
+          <div class="solar-service-step-desc">Tailored proposal</div>
+        </div>
+      </div>
+      <div class="solar-service-step-connector d-none d-md-block"></div>
+      <div class="solar-service-process-step">
+        <div class="solar-service-step-num">3</div>
+        <div>
+          <div class="solar-service-step-title">Installation</div>
+          <div class="solar-service-step-desc">1–3 days setup</div>
+        </div>
+      </div>
+      <div class="solar-service-step-connector d-none d-md-block"></div>
+      <div class="solar-service-process-step">
+        <div class="solar-service-step-num">4</div>
+        <div>
+          <div class="solar-service-step-title">Go Live</div>
+          <div class="solar-service-step-desc">Start saving</div>
+        </div>
+      </div>
     </div>
   </div>
-  <!-- <a href="about.php" class="btn-leaf d-flex jsutif">Read More</a> -->
+</div>
+
+
+
+
+<section class="new_index_service_section">
+  <div class="container">
+    <h2 class="section-title text-center my-5 ">Completed Solar <span style="color:var(--sun); ">Projects</span></h2>
+    <!-- <p class="section-sub mx-auto">Real installations, real results. Explore some of our recently completed projects across residential and commercial sectors.</p> -->
+
+    <!-- <h2 class="text-center new_index_service_section__title">Our Specialized Services</h2> -->
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="new_index_service_section__card">
+          <div class="new_index_service_section__image-box">
+            <img src="./assets/img/i_2.png" alt="Service Name">
+          </div>
+          <div class="new_index_service_section__content-box">
+            <h3 class="new_index_service_section__service-title">Elite Edible Oil and Fuel Pvt. Ltd</h3>
+            <p class="new_index_service_section__service-desc">
+              A high-scale industrial installation completed within 45 days. It includes full engineering scope, from site survey to CEIG safety clearances and Bi-Directional Net Metering (APEPDCL), ensuring massive energy savings for the factory.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="new_index_service_section__card">
+          <div class="new_index_service_section__image-box">
+            <img src="./assets/img/c_1.png" alt="Service Name">
+          </div>
+          <div class="new_index_service_section__content-box">
+            <h3 class="new_index_service_section__service-title">Rotary Old Age Home & Deepu Engineering</h3>
+            <p class="new_index_service_section__service-desc">
+              Customized solar solutions for non-residential spaces. These projects focus on reducing operational costs for offices and social organizations while maintaining a stable and clean power supply.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="new_index_service_section__card">
+          <div class="new_index_service_section__image-box">
+            <img src="./assets/img/r-1.png" alt="Service Name">
+          </div>
+          <div class="new_index_service_section__content-box">
+            <h3 class="new_index_service_section__service-title">System Maintenance</h3>
+            <p class="new_index_service_section__service-desc">
+              Keep your solar panels running at peak efficiency with our regular maintenance checks and performance monitoring systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ═══════════════════════════════ PRODUCTS ═══════════════════════════════ -->
@@ -322,7 +483,7 @@
       <p class="section-sub mx-auto">Industry-leading solar hardware backed by manufacturer warranties and our expert installation team.</p>
     </div>
     <div class="row g-4">
-      <div class="col-md-6 col-lg-4 fade-up fade-up-d1">
+      <div class="col-md-6 col-lg-6 fade-up fade-up-d1">
         <div class="product-card">
           <div class="product-icon-wrap">🌞</div>
           <div class="product-name">Engineering, Procurement & Construction (EPC)</div>
@@ -331,7 +492,7 @@
             <a href="#contact" class="btn-leaf">Request Quote</a> -->
         </div>
       </div>
-      <div class="col-md-6 col-lg-4 fade-up fade-up-d2">
+      <div class="col-md-6 col-lg-6 fade-up fade-up-d2">
         <div class="product-card">
           <div class="product-icon-wrap">⚡</div>
           <div class="product-name">Advanced Structural Design & Engineering</div>
@@ -340,13 +501,23 @@
             <a href="#contact" class="btn-leaf">Request Quote</a> -->
         </div>
       </div>
-      <div class="col-md-6 col-lg-4 fade-up fade-up-d3">
+      <div class="col-md-6 col-lg-6 fade-up fade-up-d3">
         <div class="product-card">
           <div class="product-icon-wrap">🔋</div>
           <div class="product-name">Approvals & Net Metering Support</div>
           <div class="product-desc">We manage the entire documentation process, including CEIG electrical safety clearances and APEPDCL Bi-Directional meter installations, ensuring your system is legally compliant and grid-ready.</div>
-          <!-- <div class="product-price">From $4,500/unit</div>
-            <a href="#contact" class="btn-leaf">Request Quote</a> -->
+
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-6 fade-up fade-up-d3">
+        <div class="product-card">
+          <div class="product-icon-wrap">🔋</div>
+          <div class="product-name">Service & Maintenance</div>
+          <div class="product-desc">We provide complete solar service, including system checks, panel cleaning, and performance monitoring. Enjoy 5 Years Support with reliable, hassle-free service for peace of mind.</div>
+
         </div>
       </div>
     </div>
@@ -398,19 +569,24 @@
             <div class="custom-slide-content   ">
               <div class="custom-card-wrapper swiper-wrapper py-5">
 
-                <div class="custom-card custom_card_bg_three swiper-slide">
+
+
+
+
+
+                <div class="custom-card custom_card_bg_three swiper-slide solar_wire-brand-card">
 
                   <img src="./assets/img/adani.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
                 </div>
-                <div class="custom-card custom_card_bg_three swiper-slide">
+                <div class="custom-card custom_card_bg_three swiper-slide   solar_wire-brand-card">
 
                   <img src="./assets/img/premier.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
                 </div>
-                <div class="custom-card custom_card_bg_three swiper-slide">
+                <div class="custom-card custom_card_bg_three swiper-slide solar_wire-brand-card">
 
                   <img src="./assets/img/waaree.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
                 </div>
-                <div class="custom-card custom_card_bg_three swiper-slide">
+                <div class="custom-card custom_card_bg_three swiper-slide solar_wire-brand-card">
 
                   <img src="./assets/img/tata.png" alt="Garuda  Trades" class="img-fluid custom-card-img ">
                 </div>
@@ -442,21 +618,21 @@
   <div class="container position-relative" style="z-index:1;">
     <div class="row g-5 align-items-center">
       <div class="col-lg-5 fade-up">
-        <div class="section-tag" style="background:rgba(255,255,255,.15);color:var(--sun);">Why Nabhas Solar?</div>
-        <h2 class="section-title" style="color:var(--white);">Benefits of <span style="color:var(--sun);">Solar Energy</span></h2>
-        <p style="color:rgba(255,255,255,.75);line-height:1.8;" class="mb-4">Going solar isn't just an investment in your home — it's an investment in your future and the planet's health. Join 400+ Residential & Commercial customers who have already switched to clean energy with Nabhas Solar.</p>
+        <div class="section-tag" style="background:#0b1f3a;color:var(--sun);">Why Nabhas Solar?</div>
+        <h2 class="section-title" style="color:#0b1f3a;">Benefits of <span style="color:var(--sun);">Solar Energy</span></h2>
+        <p style="color:rgba(0, 0, 0, 0.75);line-height:1.8;" class="mb-4">Going solar isn't just an investment in your home — it's an investment in your future and the planet's health. Join 400+ Residential & Commercial customers who have already switched to clean energy with Nabhas Solar.</p>
         <div class="d-flex gap-4 text-center">
           <div>
             <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="90">0</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">% Avg Bill Reduction</div>
+            <div style="font-size:.8rem;color:rgba(0, 0, 0, 0.65);">% Avg Bill Reduction</div>
           </div>
           <div>
             <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="30">0</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year Panel Warranty</div>
+            <div style="font-size:.8rem;color:rgba(0, 0, 0, 0.65);">Year Panel Warranty</div>
           </div>
           <div>
             <div class="count-num" style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--sun);" data-target="3">0</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.65);">Year ROI Average</div>
+            <div style="font-size:.8rem;color:rgba(0, 0, 0, 0.65);">Year ROI Average</div>
           </div>
         </div>
       </div>
@@ -635,7 +811,7 @@
           <div class="row g-3">
             <div class="col-md-6">
               <label class="form-label">First Name</label>
-              <input type="text" class="form-control" placeholder="John" />
+              <input type="text" class="form-control" placeholder="name" />
             </div>
             <!-- <div class="col-md-6">
                 <label class="form-label">Last Name</label>
@@ -643,7 +819,7 @@
               </div> -->
             <div class="col-md-6">
               <label class="form-label">Email Address</label>
-              <input type="email" class="form-control" placeholder="sample@gmail.com" />
+              <input type="email" class="form-control" placeholder="@gmail.com" />
             </div>
             <div class="col-md-6">
               <label class="form-label">Phone Number</label>
@@ -708,7 +884,7 @@
 
         <div class="map-placeholder mt-2">
           <i class="bi bi-map-fill"></i>
-          <p><strong>Nabhas Solar+ </strong></p>
+          <p><strong>Nabhas Solar </strong></p>
           <p style="font-size:.82rem;">#70-7-2/4,2nd floor,road no.4,siddartha nagar,kakinada-533005</p>
           <a href="https://maps.app.goo.gl/eM3PycEEhmCu91YV9" target="_blank" class="btn-leaf" style="font-size:.82rem;padding:8px 20px;">Open in Maps</a>
         </div>
@@ -718,6 +894,178 @@
 </section>
 
 
+<!-- faq section   -->
+<section>
+  <div class="container">
+    <h2 class="section-title text-center mb-3">Frequently <span>Ask</span>Question (FAQ)</h2>
+    <!-- <h1 class="text-center">  </h1> -->
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="accordion">
+          <!-- Accordion 1 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> How much can I save on electricity bills?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                You can save 70% to 100% on your electricity bills depending on system size and usage.
+            </div>
+          </div>
+
+
+
+          <!-- Accordion 2 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">What is the payback period?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Typically 3 to 5 years depending on usage and subsidy.
+              </p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- Accordion 3 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Is government subsidy available?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Yes, subsidy is available for residential rooftop solar systems under the PM Surya Ghar: Muft Bijli Yojana.
+                The subsidy is provided as follows:<br>
+                • 1 kW → ₹30,000<br>
+                • 2 kW → ₹60,000<br>
+                • 3 kW and Above → ₹78,000
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion 4 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">How much space is required?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Solar systems require rooftop space based on capacity: around 100 sq.ft for 1 kW, 250 sq.ft for 3 kW, and 450 sq.ft for 5 kW installations.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion 5
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Is Vision Dental Guntur open on weekends?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases. </p>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6">
+
+
+        <div class="accordion">
+
+
+          <!-- Accordion 1 -->
+          <div class="faq_section">
+
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Do solar panels generate electricity during rainy or cloudy weather?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Yes, solar panels can generate power even in cloudy or rainy weather. However, since sunlight intensity is reduced, the energy production will be lower than on clear sunny days.
+            </div>
+          </div>
+
+
+          <!-- Accordion 2 -->
+          <div class="faq_section">
+
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">What happens during power cuts?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Grid-tied systems will not work during power cuts. However, battery systems can provide backup.
+            </div>
+          </div>
+
+
+          <!-- Accordion 3 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Is my roof suitable for solar?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                We conduct a site survey to check roof strength, direction, and shading before installation.
+            </div>
+          </div>
+          <!-- Accordion 4 
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">What are patients saying about Vision Dental Guntur?</h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results. Check out reviews on Google or visit our clinic to experience it yourself.
+            </div>
+          </div>-->
+          <!-- Accordion 5 -->
+          <!-- <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> How do I book an appointment at Vision Dental Guntur?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+                You can easily book an appointment here, or call us directly during clinic hours. Walk-ins are also welcome for general check-ups. </p>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -758,7 +1106,29 @@
   });
 </script>
 
+<script>
+  function toggleAccordion(header) {
+    const content = header.nextElementSibling;
+    const icon = header.querySelector(".accordion-icon");
 
+    // Close all open accordions if only one should be open at a time
+    document.querySelectorAll('.accordion-content').forEach(el => {
+      if (el !== content) el.classList.remove('open');
+    });
+    document.querySelectorAll('.accordion-icon').forEach(el => {
+      if (el !== icon) {
+        el.classList.remove('rotate');
+        el.textContent = '+';
+      }
+    });
+
+    // Toggle current
+    content.classList.toggle("open");
+    icon.classList.toggle("rotate");
+
+    icon.textContent = content.classList.contains("open") ? "−" : "+";
+  }
+</script>
 
 
 
@@ -826,6 +1196,42 @@
 <button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
   <i class="bi bi-arrow-up"></i>
 </button>
+
+<style>
+  .broucher_section .image-container {
+    position: relative;
+    width: fit-content;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .broucher_section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* Black transparent background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Hover chesthe text kanipisthundi */
+  .broucher_section .image-container:hover .overlay {
+    opacity: 1;
+  }
+</style>
+
+
+
 
 <!-- Bootstrap 5 JS -->
 

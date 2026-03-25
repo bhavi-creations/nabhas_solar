@@ -181,14 +181,14 @@
 
       <div class="col-lg-5">
         <div class="contact_info_wrapper">
-          <h1>Get in <br>Touch.</h1>
+          <h1>Get a <br>Free Quote</h1>
           <p class="mb-5 text-muted">Ready to switch to solar? Reach out to us for a personalized quote and expert guidance.</p>
 
           <div class="contact_item">
             <i class="bi bi-telephone-outbound"></i>
             <div>
               <h5>Call Us</h5>
-              <p>+91 98765 43210</p>
+              <p>+91 8341950894</p>
             </div>
           </div>
 
@@ -196,7 +196,7 @@
             <i class="bi bi-envelope-at"></i>
             <div>
               <h5>Email Address</h5>
-              <p>info@nabhassolar.com</p>
+              <p>project@nabhasconstuctions.com</p>
             </div>
           </div>
 
@@ -204,7 +204,8 @@
             <i class="bi bi-geo-alt"></i>
             <div>
               <h5>Our Location</h5>
-              <p>Plot No. 42, Solar Park, Hyderabad, India</p>
+              <p>70-7-2/4,2nd floor,road
+                no.4,siddartha nagar,kakinada-533005</p>
             </div>
           </div>
         </div>

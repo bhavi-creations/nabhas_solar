@@ -443,7 +443,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="service.php">Services</a></li>
-                    <li><a href="review.php">Testimonials</a></li>
+                    <li><a href="get_in_touch.php">Get a Free Quote’</a></li>
                     <!-- <li><a href="#">Residential Solar</a></li>
                     <li><a href="#">Projects</a></li> -->
                     <li><a href="contact.php">Contact</a></li>
